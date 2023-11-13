@@ -1399,7 +1399,7 @@ T2  - Journal of Advances in Modeling Earth Systems
 AB  - This article introduces the second generation CMCC Earth System Model (CMCC-ESM2) that extends a number of marine and terrestrial biogeochemical processes with respect to its CMIP5 predecessor. In particular, land biogeochemistry was extended to a wider set of carbon pools and plant functional types, along with a prognostic representation of the nitrogen cycle. The marine ecosystem representation was reshaped toward an intermediate complexity of lower trophic level interactions, including an interactive benthic compartment and a new formulation of heterotrophic bacterial population. Details are provided on the model setup and implementation for the different experiments performed as contribution to the sixth phase of the Coupled Model Intercomparison Project. CMCC-ESM2 shows an equilibrium climate sensitivity of 3.57°C and a transient climate response of 1.97°C which are close to the CMIP5 and CMIP6 multi-model averages. The evaluation of the coupled climate-carbon response in the historical period against available observational datasets show a consistent representation of both physical and biogeochemical quantities. However, the land carbon sink is found to be weaker than the current global carbon estimates and the simulated marine primary production is slightly below the satellite-based average over recent decades. Future projections coherently show a prominent global warming over the northern hemisphere with intensified precipitations at high latitudes. The expected ranges of variability for oceanic pH and oxygen, as well as land carbon and nitrogen soil storage, compare favorably with those assessed from other CMIP6 models.
 DA  - 2022///
 PY  - 2022
-DO  - 10.1029/2021MS002814
+DO  - https://doi.org/10.1029/2021MS002814
 DP  - Wiley Online Library
 VL  - 14
 IS  - 3
@@ -1417,9 +1417,9 @@ KW  - global biogeochemical cycles
 ER  - 
 
 TY  - JOUR
-TI  - The representation of alkalinity and the carbonate pump from CMIP5 to CMIP6 ESMs and implications for the ocean carbon cycle
+TI  - The representation of alkalinity and the carbonate pump from CMIP5 to CMIP6 Earth system models and implications for the carbon cycle
 AU  - Planchat, Alban
-AU  - Kwiatkwoski, Lester
+AU  - Kwiatkowski, Lester
 AU  - Bopp, Laurent
 AU  - Torres, Olivier
 AU  - Christian, James R.
@@ -1438,14 +1438,16 @@ AU  - Schwinger, Jörg
 AU  - Tjiputra, Jerry
 AU  - Dunne, John P.
 AU  - Stock, Charles
-T2  - accepted in Biogeosciences
-AB  - <p><strong class="journal-contentHeaderColor">Abstract.</strong> Ocean alkalinity is critical to the uptake of atmospheric carbon in surface waters and provides buffering capacity towards associated acidification. However, unlike dissolved inorganic carbon (DIC), alkalinity is not directly impacted by anthropogenic carbon emissions. Within the context of projections of future ocean carbon uptake and potential ecosystem impacts, especially through Coupled Model Intercomparison Projects (CMIPs), the representation of alkalinity and the main driver of its distribution in the ocean interior, the calcium carbonate cycle, have often been overlooked. Here we track the changes from CMIP5 to CMIP6 with respect to the Earth system model (ESM) representation of alkalinity and the carbonate pump which depletes the surface ocean in alkalinity through biological production of calcium carbonate, and releases it at depth through export and dissolution. We report a significant improvement in the representation of alkalinity in CMIP6 ESMs relative to those in CMIP5. This improvement can be explained in part by an increase in calcium carbonate (CaCO<sub>3</sub>) production for some ESMs, which redistributes alkalinity at the surface and strengthens its vertical gradient in the water column. We were able to constrain a PIC export estimate of 51&ndash;70 Tmol yr<sup>-1</sup> at 100 m for the ESMs to match the observed vertical gradient of alkalinity. Biases in the vertical profile of DIC have also significantly decreased, especially with the enhancement of the carbonate pump, but the representation of the saturation horizons has slightly worsened in contrast. Reviewing the representation of the CaCO<sub>3</sub> cycle across CMIP5/6, we find a substantial range of parameterizations. While all biogeochemical models currently represent pelagic calcification, they do so implicitly, and they do not represent benthic calcification. In addition, most models simulate marine calcite but not aragonite. In CMIP6 certain model groups have increased the complexity of simulated CaCO<sub>3</sub> production, sinking, dissolution and sedimentation. However, this is insufficient to explain the overall improvement in the alkalinity representation, which is therefore likely a result of improved marine biogeochemistry model tuning or ad hoc parameterizations. We find differences in the way ocean alkalinity is initialized that lead to offsets of up to 1 % in the global alkalinity inventory of certain models. These initialization biases should be addressed in future CMIPs by adopting accurate unit conversions. Although modelers aim to balance the global alkalinity budget in ESMs in order to limit drift in ocean carbon uptake under preindustrial conditions, varying assumptions in the closure of the budget have the potential to influence projections of future carbon uptake. For instance, in many models, carbonate production, dissolution and burial are independent of the seawater saturation state, and when considered, the range of sensitivities is substantial. As such, the future impact of ocean acidification on the carbonate pump, and in turn ocean carbon uptake, is potentially underestimated in current ESMs and insufficiently constrained.</p>
-DA  - 2022/11/04/
-PY  - 2022
-DO  - 10.5194/egusphere-2022-1041
-DP  - egusphere.copernicus.org
-SP  - 1
-EP  - 76
+T2  - Biogeosciences
+AB  - Ocean alkalinity is critical to the uptake of atmospheric carbon in surface waters and provides buffering capacity towards the associated acidification. However, unlike dissolved inorganic carbon (DIC), alkalinity is not directly impacted by anthropogenic carbon emissions. Within the context of projections of future ocean carbon uptake and potential ecosystem impacts, especially through Coupled Model Intercomparison Projects (CMIPs), the representation of alkalinity and the main driver of its distribution in the ocean interior, the calcium carbonate cycle, have often been overlooked. Here we track the changes from CMIP5 to CMIP6 with respect to the Earth system model (ESM) representation of alkalinity and the carbonate pump which depletes the surface ocean in alkalinity through biological production of calcium carbonate and releases it at depth through export and dissolution. We report an improvement in the representation of alkalinity in CMIP6 ESMs relative to those in CMIP5, with CMIP6 ESMs simulating lower surface alkalinity concentrations, an increased meridional surface gradient and an enhanced global vertical gradient. This improvement can be explained in part by an increase in calcium carbonate (CaCO3) production for some ESMs, which redistributes alkalinity at the surface and strengthens its vertical gradient in the water column. We were able to constrain a particulate inorganic carbon (PIC) export estimate of 44–55 Tmol yr−1 at 100 m for the ESMs to match the observed vertical gradient of alkalinity. Reviewing the representation of the CaCO3 cycle across CMIP5/6, we find a substantial range of parameterizations. While all biogeochemical models currently represent pelagic calcification, they do so implicitly, and they do not represent benthic calcification. In addition, most models simulate marine calcite but not aragonite. In CMIP6, certain model groups have increased the complexity of simulated CaCO3 production, sinking, dissolution and sedimentation. However, this is insufficient to explain the overall improvement in the alkalinity representation, which is therefore likely a result of marine biogeochemistry model tuning or ad hoc parameterizations. Although modellers aim to balance the global alkalinity budget in ESMs in order to limit drift in ocean carbon uptake under pre-industrial conditions, varying assumptions related to the closure of the budget and/or the alkalinity initialization procedure have the potential to influence projections of future carbon uptake. For instance, in many models, carbonate production, dissolution and burial are independent of the seawater saturation state, and when considered, the range of sensitivities is substantial. As such, the future impact of ocean acidification on the carbonate pump, and in turn ocean carbon uptake, is potentially underestimated in current ESMs and is insufficiently constrained.
+DA  - 2023/04/03/
+PY  - 2023
+DO  - 10.5194/bg-20-1195-2023
+DP  - Copernicus Online Journals
+VL  - 20
+IS  - 7
+SP  - 1195
+EP  - 1257
 LA  - English
 UR  - https://egusphere.copernicus.org/preprints/2022/egusphere-2022-1041/
 Y2  - 2023/03/17/09:31:00
