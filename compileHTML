@@ -1,0 +1,14 @@
+#!/usr/local/bin/python3
+
+from bibliograpy.bibliography import bibliography
+from bibliograpy.abstractBooklet import abstractBooklet, pandoc_html
+bib = bibliography("me.ris")
+bib.sort()
+book = abstractBooklet(bib, "Momme Butenschön - Publications")
+book("index.rst", boldAuthor=r"\bM(?:omme|\.) Butensch(?:o|oe|ö)n\b")
+pandoc_html("index")
+with open("index.html","r") as fid:
+    lines=fid.read()
+lines=lines.replace('/Users/mommebutenschon/git/bibliograpy/bibliograpy/pandoc','.')
+with open("index.html","w") as fid:
+    fid.write(lines)

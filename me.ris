@@ -1,0 +1,1495 @@
+TY  - JOUR
+TI  - Sensitivity of a marine coupled physical biogeochemical model to time resolution, integration scheme and time splitting method
+AU  - Butenschön, Momme
+AU  - Zavatarelli, Marco
+AU  - Vichi, Marcello
+T2  - Ocean Modelling
+AB  - Coupled marine biogeochemical models are composed of a hydrodynamic component with a transport model for the ecological state variables and a model for the biogeochemical dynamics. The combination of these components involves the implementation of a numerical coupling method, that performs the spatial–temporal integration of the combined system, introducing an additional source of error to the system (splitting error). In this article we demonstrate the sensitivity of a comparatively complex 1D hydrodynamical biogeochemical model to the coupling method, showing that for an inadequate choice of the coupling method, the splitting error may dominate the numerical error of the system. It is demonstrated that for this type of system the tracer transport time scale clearly dominates over the scale of the biogeochemical processes, that maybe computed on significantly coarser time scales. In between the implemented coupling schemes Operator Splitting and Source Splitting, the Source Splitting method inserting the biogeochemical rates into the transport tracer integration is to be preferred for these type of models.
+DA  - 2012///
+PY  - 2012
+DO  - 10.1016/j.ocemod.2012.04.008
+VL  - 52-53
+IS  - 0
+SP  - 36
+EP  - 53
+SN  - 1463-5003
+UR  - http://www.sciencedirect.com/science/article/pii/S1463500312000686
+KW  - Ecosystem
+KW  - modelling
+ER  - 
+
+TY  - JOUR
+TI  - A comparison of different versions of the SEEK Filter for assimilation of biogeochemical data in numerical models of marine ecosystem dynamics
+AU  - Butenschön, Momme
+AU  - Zavatarelli, Marco
+T2  - Ocean Modelling
+AB  - In this work three versions of the Singular Evolutive Extended Kalman Filter (SEEK) filter are applied to a 1D implementation of a marine ecosystem dynamics model in two locations of the Northern Adriatic Sea to assimilate biogeochemical data. The scope is to gain insight in the benefit of the various levels of error covariance propagation: (1) the forgetting factor version, propagating analysis error correction directions and covariance matrix in reduced space, (2) a simplified version of the former, propagating the covariance matrix in reduced space only and (3) a new version that is proposed in this article abandoning the concept of forgetting factor for a more explicit approach in the approximation of the model noise covariance by statistical means. Twin experiments are presented comparing the various filters along with a free run and a non propagating scheme corresponding to an optimal interpolation to quantify the benefit of these sophisticated, but computationally heavier filters with respect to a simpler approach. The obtained results clearly show that the improvements achieved through the more advanced formulations of the propagation scheme are consistent with the level of sophistication in the design. The results for the filters with full propagation also overcome some unstable behaviour observed for the semi-propagating filter. The filter with statistical treatment of the dynamic noise further improved the results of the version with forgetting factor and full propagation showing a quicker convergence towards the “true solution” in the framework of the twin experiments.
+DA  - 2012///
+PY  - 2012
+DO  - 10.1016/j.ocemod.2012.06.003
+VL  - 54-55
+IS  - 0
+SP  - 37
+EP  - 54
+SN  - 1463-5003
+UR  - http://www.sciencedirect.com/science/article/pii/S1463500312000996
+KW  - assimilation
+KW  - Data
+ER  - 
+
+TY  - CHAP
+TI  - Chapter 4: Projected changes in global and national potential marine fisheries catch under climate change scenarios in the twenty-first century
+AU  - Cheung, W.W.L.
+AU  - Bruggeman, J.
+AU  - Butenschön, M.
+T2  - Impacts of Climate Change on fisheries and aquaculture: Synthesis of current knowledge, adaptation and mitigation options.
+T3  - FAO Fisheries Technical Paper
+AB  - • Total maximum catch potential in the world’s exclusive economic zones (EEZs)1 (excluding those bordering semi-enclosed seas) was projected by applying two distinct approaches to likely decrease under climate change by 2.8 percent to 5.3 percent and 7.0 percent to 12.1 percent by 2050 relative to 2000 under the “strong mitigation” (RCP2.6) and “business-as-usual” (RCP8.5) greenhouse gas emission scenarios, respectively. The projected decrease in catch under RCP8.5 becomes 16.2 percent to 25.2 percent by the end of the twenty-first century.
+• The projected changes in maximum catch potential varied substantially across EEZs in different regions, with EEZs in tropical countries showing the largest decrease, mostly in the South Pacific regions. Catch potential in the temperate Northeast Atlantic is also likely to decrease in the mid-term (2050s).
+• The projected changes in catch potential in the high latitude regions are much more variable between models, time periods and EEZs because of the high variabilities in projected oceanographic changes between different Earth system models.
+CY  - Rome, Italy
+DA  - 2018/07/10/
+PY  - 2018
+ET  - M. Barange, T. Bahri, M.C.M. Beveridge, K.L. Cochrane. S. Funge-Smith, F. Poulain
+SP  - 63
+EP  - 86
+PB  - FAO
+SN  - 978-92-5-130607-9
+SV  - 627
+UR  - http://www.fao.org/3/I9705EN/i9705en.pdf
+ER  - 
+
+TY  - CHAP
+TI  - Changing Ocean, Marine Ecosystems, and Dependent Communities.
+AU  - Bindoff, N.L.
+AU  - Cheung, W.W.L.
+AU  - Kairo, J.G.
+AU  - Aristegui, J.
+AU  - Guinder, V.A.
+AU  - Hallberg, R.
+AU  - Hilmi, N.
+AU  - Jiao, N.
+AU  - Karim, M.S.
+AU  - Levin, L.
+AU  - O'Donoghue, S.
+AU  - Purca Cuicapusa, S.R.
+AU  - Rinkevich, B.
+AU  - Suga, T.
+AU  - Tagliabue, A.
+AU  - Williamson, P.
+AU  - et al.
+T2  - IPCC Special Report on the Ocean and Cryosphere in a Changing Climate [H.-O. Pörtner, D.C. Roberts, V. Masson-Delmotte, P. Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. Nicolai, A. Okem, J. Petzold, B. Rama, N.M. Weyer (eds.)]
+T3  - IPCC Reports
+AB  - Contributing Authors: Sevil Acar (Turkey), Juan Jose Alava (Ecuador/Canada), Eddie Allison (United Kingdom), Brian Arbic (USA), Tamatoa Bambridge (French Polynesia), Inka Bartsch (Germany), Laurent Bopp (France), Philip W. Boyd (Australia/ United Kingdom), Thomas Browning (Germany/United Kingdom), Jorn Bruggeman (Netherlands), Momme Butenschön (Germany), Francisco P. Chávez (USA), Lijing Cheng (China), Mine Cinar (USA), Daniel Costa (USA), Omar Defeo (Uruguay), Salpie Djoundourian (Lebanon), Catia Domingues (Australia), Tyler Eddy (Canada), Sonja Endres (Germany), Alan Fox (UK), Christopher Free (USA), Thomas Frölicher (Switzerland), Jean-Pierre Gattuso (France), Gemma Gerber (South Africa), Charles Greene (USA), Nicolas Gruber (Switzerland), Gustaav Hallegraef (Australia), Matthew Harrison (USA), Sebastian Hennige (UK), Mark Hindell (Australia), Andrew Hogg (Australia), Taka Ito (USA), Tiff-Annie Kenny (Canada), Kristy Kroeker (USA), Lester Kwiatkowski (France/UK), Vicky W. Y. Lam (China/Canada), Charlotte Laüfkotter (Switzerland/German), Philippe LeBillon (Canada), Nadine Le Bris (France), Heike Lotze (Canada), Jennifer MacKinnon (USA), Annick de Marffy-Mantuano (Monaco), Patrick Martel (South Africa), Nadine Marshall (Australia), Kathleen McInnes (Australia), Jorge García Molinos (Japan/Spain), Serena Moseman-Valtierra (USA), Andries Motau (South Africa), Sandor Mulsow (Brazil), Kana Mutombo (South Africa), Andreas Oschlies (Germany), Muhammed Oyinlola (Nigeria), Elvira S. Poloczanska (Australia), Nicolas Pascal (France), Maxime Philip (France), Sarah Purkey (USA), Saurabh Rathore (India), Xavier Rebelo (South Africa), Gabriel Reygondeau (France), Jake Rice (Canada), Anthony Richardson (Australia), Ulf Riebesell (Germany), Christopher Roach (France/Australia), Joacim Rocklöv (Sweden), Murray Roberts (United Kingdom), Alain Safa (France), Sunke Schmidtko (Germany), Gerald Singh (Canada), Bernadette Sloyan (Australia), Karinna von Schuckmann (France), Manal Shehabi (England), Matthew Smith (USA), Amy Shurety (South Africa), Fernando Tuya (Spain), Cristian Vargas (Chile), Colette Wabnitz (France), Caitlin Whalen (USA)
+DA  - 2019///
+PY  - 2019
+SP  - 142
+PB  - Intergovernmental Panel on Climate Change (IPCC)
+SV  - SROCC
+UR  - https://www.ipcc.ch/srocc/chapter/chapter-5/
+ER  - 
+
+TY  - JOUR
+TI  - Next-generation regional ocean projections for living marine resource management in a changing climate
+AU  - Drenkard, Elizabeth J
+AU  - Stock, Charles
+AU  - Ross, Andrew C
+AU  - Dixon, Keith W
+AU  - Adcroft, Alistair
+AU  - Alexander, Michael
+AU  - Balaji, Venkatramani
+AU  - Bograd, Steven J
+AU  - Butenschön, Momme
+AU  - Cheng, Wei
+AU  - Curchitser, Enrique
+AU  - di Lorenzo, Emanuele
+AU  - Dussin, Raphael
+AU  - Haynie, Alan C
+AU  - Harrison, Matthew
+AU  - Hermann, Albert
+AU  - Hollowed, Anne
+AU  - Holsman, Kirstin
+AU  - Holt, Jason
+AU  - Jacox, Michael G
+AU  - Jang, Chan Joo
+AU  - Kearney, Kelly A
+AU  - Muhling, Barbara A
+AU  - Buil, Mercedes Pozo
+AU  - Saba, Vincent
+AU  - Sandø, Anne Britt
+AU  - Tommasi, Désirée
+AU  - Wang, Muyin
+T2  - ICES Journal of Marine Science
+AB  - Efforts to manage living marine resources (LMRs) under climate change need projections of future ocean conditions, yet most global climate models (GCMs) poorly represent critical coastal habitats. GCM utility for LMR applications will increase with higher spatial resolution but obstacles including computational and data storage costs, obstinate regional biases, and formulations prioritizing global robustness over regional skill will persist. Downscaling can help address GCM limitations, but significant improvements are needed to robustly support LMR science and management. We synthesize past ocean downscaling efforts to suggest a protocol to achieve this goal. The protocol emphasizes LMR-driven design to ensure delivery of decision-relevant information. It prioritizes ensembles of downscaled projections spanning the range of ocean futures with durations long enough to capture climate change signals. This demands judicious resolution refinement, with pragmatic consideration for LMR-essential ocean features superseding theoretical investigation. Statistical downscaling can complement dynamical approaches in building these ensembles. Inconsistent use of bias correction indicates a need for objective best practices. Application of the suggested protocol should yield regional ocean projections that, with effective dissemination and translation to decision-relevant analytics, can robustly support LMR science and management under climate change.
+DA  - 2021/06/21/
+PY  - 2021
+DO  - 10.1093/icesjms/fsab100
+DP  - Silverchair
+IS  - fsab100
+J2  - ICES Journal of Marine Science
+SN  - 1054-3139
+UR  - https://doi.org/10.1093/icesjms/fsab100
+Y2  - 2021/06/22/14:32:12
+L2  - https://academic.oup.com/icesjms/advance-article/doi/10.1093/icesjms/fsab100/6307379
+ER  - 
+
+TY  - JOUR
+TI  - Modeling the seasonality and controls of nitrous oxide emissions on the northwest European continental shelf
+AU  - Lessin, Gennadi
+AU  - Polimene, Luca
+AU  - Artioli, Yuri
+AU  - Butenschön, Momme
+AU  - Clark, Darren R.
+AU  - Brown, Ian
+AU  - Rees, Andrew P.
+T2  - Journal of Geophysical Research: Biogeosciences
+AB  - Estimates of oceanic emissions of nitrous oxide (N2O) are surrounded by a considerable degree of uncertainty, particularly regarding the contribution of productive shelf regions, where assessments are based on limited observations. In this paper, we have applied a coupled hydrodynamic-biogeochemical model resolving N2O dynamics to estimate N2O emissions within the northwest European continental shelf. Based on 10-year average distributions (2006-2015), dominant seasonal patterns of N2O air-sea exchange were identified. Within the southwest region of the shelf and deep parts of the North Sea, emissions are highest during winter. Peak emissions during late autumn are typical for the northwest part of the shelf and central North Sea, while in the western English Channel, Irish Sea and western North Sea peak outflux shifts towards early autumn. Within these regions, most N2O production occurs below the seasonal pycnocline, and duration and intensity of stratification defines the timing and rate of its subsequent release to the atmosphere. In contrast, within the southeast North Sea and most of the coastal areas, lack of stratification allows the excess N2O to outgas as soon as it is produced, driven by ammonium availability, resulting in peak emissions in summer. We estimate that N2O emissions from the northwest European shelf contribute 0.02224 Tg N to the atmosphere annually, i.e. between 3.3-6.8% of total emissions from European shelves and estuaries.
+DA  - 2020///
+PY  - 2020
+DO  - https://doi.org/10.1029/2019JG005613
+DP  - Wiley Online Library
+VL  - 125
+IS  - 6
+SP  - e2019JG005613
+LA  - en
+SN  - 2169-8961
+UR  - https://agupubs.pericles-prod.literatumonline.com/doi/abs/10.1029/2019JG005613
+Y2  - 2020/06/03/14:03:12
+L2  - https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JG005613
+KW  - ERSEM
+KW  - nitrous oxide
+KW  - greenhouse gases
+KW  - air-sea exchange
+KW  - biogeochemical modelling
+KW  - continental shelf
+ER  - 
+
+TY  - JOUR
+TI  - Alkalinization Scenarios in the Mediterranean Sea for Efficient Removal of Atmospheric CO2 and the Mitigation of Ocean Acidification
+AU  - Butenschön, Momme
+AU  - Lovato, Tomas
+AU  - Masina, Simona
+AU  - Caserini, Stefano
+AU  - Grosso, Mario
+T2  - Frontiers in Climate
+AB  - It is now widely recognised that in order to reach the target of limiting global warming below 2 °C above pre-industrial levels (as the objective of the Paris agreement) there is the need for development and implementation of active Carbon Dioxide Removal (CDR) strategies. Relatively few studies have assessed the mitigation capacity of ocean-based Negative Emission Technologies (NET) and the feasibility of their implementation on a larger scale to support efficient implementation strategies of CDR. This study investigates the case of marine alkalinisation, which has the additional potential of contrasting the ongoing acidification resulting from increased uptake of atmospheric CO2 by the seas. More specifically, we present an analysis of ocean alkalinisation applied to the Mediterranean Sea taking into consideration the regional characteristics of the basin. Rather than using idealised spatially homogenous scenarios of alkalinisation as done in previous studies, we use a set of numerical simulations of alkalinisation based on current shipping routes to quantitatively assess the alkalinisation efficiency via a coupled physical-biogeochemical model over the next decades. Simulations suggest the potential of nearly doubling the carbon-dioxide uptake rate of the Mediterranean Sea after 30 years of alkalinisation, and of neutralising the mean surface acidification trend of the baseline scenario without alkalinisation over the same time span. These levels are achieved via two different strategies: a first approach applying constant annual discharge of 200Mt Ca(OH)2 over the alkalinisation period and a second approach with gradually increasing discharge proportional to the surface pH trend of the baseline scenario reaching similar amounts of annual discharge by the end of the alkalinisation period. We demonstrate that via the latter approach it is possible to stabilise the mean surface pH at present day values and substantially increase the potential to counteract acidification relative to the alkalinity added while the carbon uptake efficiency is only marginally reduced. Nevertheless, significant local alterations of the surface pH persist, calling for an investigation of the physiological and ecological implications of the extent of these alterations to the carbonate system in the short to medium term in order to support a safe, sustainable application of this CDR implementation.
+DA  - 2021///
+PY  - 2021
+DO  - https://doi.org/10.3389/fclim.2021.614537
+DP  - Frontiers
+VL  - 3
+IS  - 614537
+J2  - Front. Clim.
+LA  - English
+SN  - 2624-9553
+UR  - https://www.frontiersin.org/articles/10.3389/fclim.2021.614537/full
+Y2  - 2021/03/18/07:13:04
+KW  - Ocean Alkalinization
+KW  - ocean acidification
+KW  - Mediterranean Sea
+KW  - Carbon dioxide removal
+KW  - Climate change mitigation
+KW  - Negative emission technologies
+KW  - Regional ocean model
+ER  - 
+
+TY  - JOUR
+TI  - Towards an integrated forecasting system for fisheries on habitat-bound stocks
+AU  - Christensen, A.
+AU  - Butenschön, M.
+AU  - Gürkan, Z.
+AU  - Allen, I. J.
+T2  - Ocean Science
+AB  - First results of a coupled modelling and forecasting system for fisheries on habitat-bound stocks are being presented. The system consists currently of three mathematically, fundamentally different model subsystems coupled offline: POLCOMS providing the physical environment implemented in the domain of the north-west European shelf, the SPAM model which describes sandeel stocks in the North Sea, and the third component, the SLAM model, which connects POLCOMS and SPAM by computing the physical–biological interaction. Our major experience by the coupling model subsystems is that well-defined and generic model interfaces are very important for a successful and extendable coupled model framework. The integrated approach, simulating ecosystem dynamics from physics to fish, allows for analysis of the pathways in the ecosystem to investigate the propagation of changes in the ocean climate and to quantify the impacts on the higher trophic level, in this case the sandeel population, demonstrated here on the basis of hindcast data. The coupled forecasting system is tested for some typical scientific questions appearing in spatial fish stock management and marine spatial planning, including determination of local and basin-scale maximum sustainable yield, stock connectivity and source/sink structure. Our presented simulations indicate that sandeel stocks are currently exploited close to the maximum sustainable yield, even though periodic overfishing seems to have occurred, but large uncertainty is associated with determining stock maximum sustainable yield due to stock inherent dynamics and climatic variability. Our statistical ensemble simulations indicates that the predictive horizon set by climate interannual variability is 2–6 yr, after which only an asymptotic probability distribution of stock properties, like biomass, are predictable.
+DA  - 2013///
+PY  - 2013
+DO  - https://doi.org/10.5194/os-9-261-2013
+VL  - 9
+IS  - 2
+SP  - 261
+EP  - 279
+UR  - http://www.ocean-sci.net/9/261/2013/
+ER  - 
+
+TY  - JOUR
+TI  - Modelling the effects of climate change on the distribution and production of marine fishes: accounting for trophic interactions in a dynamic bioclimate envelope model
+AU  - Fernandes, Jose A.
+AU  - Cheung, William W. L.
+AU  - Jennings, Simon
+AU  - Butenschön, Momme
+AU  - de Mora, Lee
+AU  - Frölicher, Thomas L.
+AU  - Barange, Manuel
+AU  - Grant, Alastair
+T2  - Global Change Biology
+AB  - Climate change has already altered the distribution of marine fishes. Future predictions of fish distributions and catches based on bioclimate envelope models are available, but to date they have not considered interspecific interactions. We address this by combining the species-based Dynamic Bioclimate Envelope Model (DBEM) with a size-based trophic model. The new approach provides spatially and temporally resolved predictions of changes in species' size, abundance and catch potential that account for the effects of ecological interactions. Predicted latitudinal shifts are, on average, reduced by 20% when species interactions are incorporated, compared to DBEM predictions, with pelagic species showing the greatest reductions. Goodness-of-fit of biomass data from fish stock assessments in the North Atlantic between 1991 and 2003 is improved slightly by including species interactions. The differences between predictions from the two models may be relatively modest because, at the North Atlantic basin scale, (i) predators and competitors may respond to climate change together; (ii) existing parameterization of the DBEM might implicitly incorporate trophic interactions; and/or (iii) trophic interactions might not be the main driver of responses to climate. Future analyses using ecologically explicit models and data will improve understanding of the effects of inter-specific interactions on responses to climate change, and better inform managers about plausible ecological and fishery consequences of a changing environment.
+DA  - 2013///
+PY  - 2013
+DO  - https://doi.org/10.1111/gcb.12231
+VL  - 19
+IS  - 8
+SP  - 2596
+EP  - 2607
+SN  - 1365-2486
+UR  - http://dx.doi.org/10.1111/gcb.12231
+KW  - climate change
+KW  - modelling
+KW  - competition
+KW  - model validation
+KW  - biological feedback
+KW  - ecosystem approach
+KW  - fisheries management
+KW  - size spectrum
+KW  - species interactions
+ER  - 
+
+TY  - JOUR
+TI  - A mechanistic explanation of the Sargasso Sea DMS "summer paradox"
+AU  - Polimene, Luca
+AU  - Archer, Stephen D.
+AU  - Butenschön, Momme
+AU  - Allen, J. Icarus
+T2  - Biogeochemistry
+AB  - In the Sargasso Sea, maximum dimethylsulfide (DMS) accumulation occurs in summer, concomitant with the minimum of chlorophyll and 2 months later than its precursor, dimethylsulfoniopropionate (DMSP). This phenomenon is often referred to as the DMS “summer paradox”. It has been previously suggested that the main agent triggering this pattern is increasing irradiance leading to light stress-induced DMS release from phytoplankton cells. We have developed a new model describing DMS(P) dynamics in the water column and used it to investigate how and to what extent processes other than light induced DMS exudation from phytoplankton, may contribute to the DMS summer paradox. To do this, we have conceptually divided the DMS “summer paradox” into two components: (1) the temporal decoupling between chlorophyll and DMSP and (2) the temporal decoupling between DMSP and DMS. Our results suggest that it is possible to explain the above cited patterns by means of two different dynamics, respectively: (1) a succession of phytoplankton types in the surface water and (2) the bacterially mediated DMSP(d) to DMS conversion, seasonally varying as a function of nutrient limitation. This work differs from previous modelling studies in that the presented model suggests that phytoplankton light-stress induced processes may only partially explain the summer paradox, not being able to explain the decoupling between DMSP and DMS, which is possibly the more challenging aspect of this phenomenon. Our study, therefore, provides an “alternative” explanation to the summer paradox further underlining the major role that bacteria potentially play in DMS production and fate.
+DA  - 2012///
+PY  - 2012
+DO  - https://doi.org/10.1007/s10533-011-9674-z
+VL  - 110
+IS  - 1-3
+SP  - 243
+EP  - 255
+LA  - English
+SN  - 0168-2563
+UR  - http://dx.doi.org/10.1007/s10533-011-9674-z
+KW  - DMS
+KW  - DMS summer paradox
+KW  - DMSP
+KW  - Marine ecosystem models
+ER  - 
+
+TY  - JOUR
+TI  - Modelling xanthophyll photoprotective activity in phytoplankton
+AU  - Polimene, Luca
+AU  - Brunet, Christophe
+AU  - Allen, J. Icarus
+AU  - Butenschön, Momme
+AU  - White, Daniel A.
+AU  - Llewellyn, Carole A.
+T2  - Journal of Plankton Research
+AB  - A numerical model describing xanthophyll dynamics in phytoplankton has been developed and used to investigate cellular photoprotective response. The model assumes that, under the transition from limiting to supra-saturating light, the xanthophyll cycling pigments (PX) synthesis implies first (on a time scale of tens of minutes) a stoichiometric conversion of the already existing fucoxanthin (FUCO) and then (on time scales of an hour onwards) an up-regulation of the investment of newly synthesized carbon to PX. The latter is concomitant with a reduction in the new carbon invested in FUCO production, which down-regulates the light-harvesting apparatus. We hypothesize that these dynamics play a major role in those phytoplankton species adapted to live in highly dynamic environments requiring rapid photoprotective response. In fact, under high light-induced stress, the conversion between photosynthetic and photoprotective compounds may be a metabolically efficient photoprotective mechanism not requiring the use of newly assimilated (and then energetically expensive) carbon.
+DA  - 2012///
+PY  - 2012
+DO  - https://doi.org/10.1093/plankt/fbr102
+VL  - 34
+IS  - 3
+SP  - 196
+EP  - 207
+UR  - http://plankt.oxfordjournals.org/content/34/3/196.abstract
+ER  - 
+
+TY  - JOUR
+TI  - Modeling the carbon fluxes of the northwest European continental shelf: Validation and budgets
+AU  - Wakelin, S. L.
+AU  - Holt, J. T.
+AU  - Blackford, J. C.
+AU  - Allen, J. I.
+AU  - Butenschön, M.
+AU  - Artioli, Y.
+T2  - J. Geophys. Res.
+AB  - Carbon budgets are simulated for the northwest European continental shelf and adjacent regions of the northeast Atlantic. Both physical and biological processes are evaluated, including exchanges between the water column and the atmosphere and sea bed. We use a multi-year simulation of a coupled 3D hydrodynamics-ecosystem model (POLCOMS-ERSEM) driven by realistic atmospheric data, ocean boundary conditions and freshwater inputs for 1989 to 2004. The northeast Atlantic (20 dgr W to 13 dgr E, 40 dgr N to 65 dgr N), including the European shelf, is found to be a net sink for atmospheric CO2. Biological processes exert a stronger control over pCO2 than temperature, and hence have a stronger effect on the air-sea CO2 exchange. For the European shelf, carbon sources of rivers and the uptake of atmospheric CO2 are balanced by horizontal transport off shelf and there is little carbon burial. There is net transport of carbon onto the shelf in the top 180 m of the water column and off the shelf below that depth, with a net carbon loss of ca. 6 +- 1 * E12 mol C yr-1. Up to 50 percent of the carbon exported from the shelf is transported below the permanent pycnocline and so is isolated from release into the atmosphere on centennial timescales.
+DA  - 2012/05//
+PY  - 2012
+DO  - https://doi.org/10.1029/2011JC007402
+VL  - 117
+IS  - C5
+SP  - C05020
+EP  - -
+SN  - 0148-0227
+UR  - http://dx.doi.org/10.1029/2011JC007402
+KW  - POLCOMS-ERSEM
+KW  - 4806 Oceanography: Biological and Chemical: Carbon cycling (0428)
+KW  - 4273 Oceanography: General: Physical and biogeochemical interactions
+KW  - carbon budget
+KW  - 0560
+KW  - 1952)
+KW  - 4255 Oceanography: General: Numerical modeling (0545
+KW  - northwest European continental shelf
+ER  - 
+
+TY  - JOUR
+TI  - iMarNet: an ocean biogeochemistry model intercomparison project within a common physical ocean modelling framework
+AU  - Kwiatkowski, L.
+AU  - Yool, A.
+AU  - Allen, J. I.
+AU  - Anderson, T. R.
+AU  - Barciela, R.
+AU  - Buitenhuis, E. T.
+AU  - Butenschön, M.
+AU  - Enright, C.
+AU  - Halloran, P. R.
+AU  - Le Quéré, C.
+AU  - de Mora, L.
+AU  - Racault, M.-F.
+AU  - Sinha, B.
+AU  - Totterdell, I. J.
+AU  - Cox, P. M.
+T2  - Biogeosciences
+AB  - Ocean biogeochemistry (OBGC) models span a wide variety of complexities, including highly simplified nutrient-restoring schemes, nutrient–phytoplankton–zooplankton–detritus (NPZD) models that crudely represent the marine biota, models that represent a broader trophic structure by grouping organisms as plankton functional types (PFTs) based on their biogeochemical role (dynamic green ocean models) and ecosystem models that group organisms by ecological function and trait. OBGC models are now integral components of Earth system models (ESMs), but they compete for computing resources with higher resolution dynamical setups and with other components such as atmospheric chemistry and terrestrial vegetation schemes. As such, the choice of OBGC in ESMs needs to balance model complexity and realism alongside relative computing cost. Here we present an intercomparison of six OBGC models that were candidates for implementation within the next UK Earth system model (UKESM1). The models cover a large range of biological complexity (from 7 to 57 tracers) but all include representations of at least the nitrogen, carbon, alkalinity and oxygen cycles. Each OBGC model was coupled to the ocean general circulation model Nucleus for European Modelling of the Ocean (NEMO) and results from physically identical hindcast simulations were compared. Model skill was evaluated for biogeochemical metrics of global-scale bulk properties using conventional statistical techniques. The computing cost of each model was also measured in standardised tests run at two resource levels. No model is shown to consistently outperform all other models across all metrics. Nonetheless, the simpler models are broadly closer to observations across a number of fields and thus offer a high-efficiency option for ESMs that prioritise high-resolution climate dynamics. However, simpler models provide limited insight into more complex marine biogeochemical processes and ecosystem pathways, and a parallel approach of low-resolution climate dynamics and high-complexity biogeochemistry is desirable in order to provide additional insights into biogeochemistry–climate interactions.
+DA  - 2014/12/19/
+PY  - 2014
+DO  - https://doi.org/10.5194/bg-11-7291-2014
+DP  - Copernicus Online Journals
+VL  - 11
+IS  - 24
+SP  - 7291
+EP  - 7304
+J2  - Biogeosciences
+SN  - 1726-4189
+ST  - iMarNet
+UR  - http://www.biogeosciences.net/11/7291/2014/
+Y2  - 2014/12/19/10:43:38
+L2  - http://www.biogeosciences.net/11/7291/2014/
+ER  - 
+
+TY  - JOUR
+TI  - Biomass changes and trophic amplification of plankton in a warmer ocean
+AU  - Chust, Guillem
+AU  - Allen, J. Icarus
+AU  - Bopp, Laurent
+AU  - Schrum, Corinna
+AU  - Holt, Jason
+AU  - Tsiaras, Kostas
+AU  - Zavatarelli, Marco
+AU  - Chifflet, Marina
+AU  - Cannaby, Heather
+AU  - Dadou, Isabelle
+AU  - Daewel, Ute
+AU  - Wakelin, Sarah L.
+AU  - Machu, Eric
+AU  - Pushpadas, Dhanya
+AU  - Butenschon, Momme
+AU  - Artioli, Yuri
+AU  - Petihakis, George
+AU  - Smith, Chris
+AU  - Garçon, Veronique
+AU  - Goubanova, Katerina
+AU  - Le Vu, Briac
+AU  - Fach, Bettina A.
+AU  - Salihoglu, Baris
+AU  - Clementi, Emanuela
+AU  - Irigoien, Xabier
+T2  - Global Change Biology
+AB  - Ocean warming can modify the ecophysiology and distribution of marine organisms, and relationships between species, with nonlinear interactions between ecosystem components potentially resulting in trophic amplification. Trophic amplification (or attenuation) describe the propagation of a hydroclimatic signal up the food web, causing magnification (or depression) of biomass values along one or more trophic pathways. We have employed 3-D coupled physical-biogeochemical models to explore ecosystem responses to climate change with a focus on trophic amplification. The response of phytoplankton and zooplankton to global climate-change projections, carried out with the IPSL Earth System Model by the end of the century, is analysed at global and regional basis, including European seas (NE Atlantic, Barents Sea, Baltic Sea, Black Sea, Bay of Biscay, Adriatic Sea, Aegean Sea) and the Eastern Boundary Upwelling System (Benguela). Results indicate that globally and in Atlantic Margin and North Sea, increased ocean stratification causes primary production and zooplankton biomass to decrease in response to a warming climate, whilst in the Barents, Baltic and Black Seas, primary production and zooplankton biomass increase. Projected warming characterized by an increase in sea surface temperature of 2.29 +- 0.05 degrees C leads to a reduction in zooplankton and phytoplankton biomasses of 11% and 6%, respectively. This suggests negative amplification of climate driven modifications of trophic level biomass through bottom-up control, leading to a reduced capacity of oceans to regulate climate through the biological carbon pump. Simulations suggest negative amplification is the dominant response across 47% of the ocean surface and prevails in the tropical oceans; whilst positive trophic amplification prevails in the Arctic and Antarctic oceans. Trophic attenuation is projected in temperate seas. Uncertainties in ocean plankton projections, associated to the use of single global and regional models, imply the need for caution when extending these considerations into higher trophic levels.
+DA  - 2014///
+PY  - 2014
+DO  - https://doi.org/10.1111/gcb.12562
+DP  - Wiley Online Library
+VL  - 20
+IS  - 7
+SP  - 2124
+EP  - 2139
+J2  - Glob Change Biol
+LA  - en
+SN  - 1365-2486
+UR  - http://onlinelibrary.wiley.com/doi/10.1111/gcb.12562/abstract
+Y2  - 2014/12/24/06:31:06
+L2  - http://onlinelibrary.wiley.com/doi/10.1111/gcb.12562/abstract
+L2  - http://onlinelibrary.wiley.com/doi/10.1111/gcb.12562/abstract;jsessionid=BF7A61775B3C70EBF7DE677D5F4C096A.f03t04
+L2  - http://onlinelibrary.wiley.com/doi/10.1111/gcb.12562/abstract
+KW  - primary production
+KW  - ecosystem model
+KW  - plankton
+KW  - food web
+KW  - trophic amplification
+KW  - sea warming
+ER  - 
+
+TY  - JOUR
+TI  - Predicting future thermal habitat suitability of competing native and invasive fish species: from metabolic scope to oceanographic modelling
+AU  - Marras, Stefano
+AU  - Cucco, Andrea
+AU  - Antognarelli, Fabio
+AU  - Azzurro, Ernesto
+AU  - Milazzo, Marco
+AU  - Bariche, Michel
+AU  - Butenschön, Momme
+AU  - Kay, Susan
+AU  - Bitetto, Massimiliano Di
+AU  - Quattrocchi, Giovanni
+AU  - Sinerchia, Matteo
+AU  - Domenici, Paolo
+T2  - Conservation Physiology
+AB  - Global increase in sea temperatures has been suggested to facilitate the incoming and spread of tropical invaders. The increasing success of these species may be related to their higher physiological performance compared with indigenous ones. Here, we determined the effect of temperature on the aerobic metabolic scope (MS) of two herbivorous fish species that occupy a similar ecological niche in the Mediterranean Sea: the native salema (Sarpa salpa) and the invasive marbled spinefoot (Siganus rivulatus). Our results demonstrate a large difference in the optimal temperature for aerobic scope between the salema (21.8 degrees C) and the marbled spinefoot (29.1 degrees C), highlighting the importance of temperature in determining the energy availability and, potentially, the distribution patterns of the two species. A modelling approach based on a present-day projection and a future scenario for oceanographic conditions was used to make predictions about the thermal habitat suitability (THS, an index based on the relationship between MS and temperature) of the two species, both at the basin level (the whole Mediterranean Sea) and at the regional level (the Sicilian Channel, a key area for the inflow of invasive species from the Eastern to the Western Mediterranean Sea). For the present-day projection, our basin-scale model shows higher THS of the marbled spinefoot than the salema in the Eastern compared with the Western Mediterranean Sea. However, by 2050, the THS of the marbled spinefoot is predicted to increase throughout the whole Mediterranean Sea, causing its westward expansion. Nevertheless, the regional-scale model suggests that the future thermal conditions of Western Sicily will remain relatively unsuitable for the invasive species and could act as a barrier for its spread westward. We suggest that metabolic scope can be used as a tool to evaluate the potential invasiveness of alien species and the resilience to global warming of native species.
+DA  - 2015/01/01/
+PY  - 2015
+DO  - https://doi.org/10.1093/conphys/cou059
+DP  - conphys.oxfordjournals.org
+VL  - 3
+IS  - 1
+SP  - cou059
+J2  - Conserv Physiol
+LA  - en
+SN  - , 2051-1434
+ST  - Predicting future thermal habitat suitability of competing native and invasive fish species
+UR  - http://conphys.oxfordjournals.org/content/3/1/cou059
+Y2  - 2015/01/21/14:05:49
+L2  - http://conphys.oxfordjournals.org/content/3/1/cou059.full
+KW  - invasive species
+KW  - global warming
+KW  - Conservation physiology
+KW  - distribution modelling
+KW  - fish physiology
+KW  - thermal habitat suitability
+ER  - 
+
+TY  - JOUR
+TI  - Challenges in integrative approaches to modelling the marine ecosystems of the North Atlantic: Physics to fish and coasts to ocean
+AU  - Holt, Jason
+AU  - Icarus Allen, J.
+AU  - Anderson, Thomas R.
+AU  - Brewin, Robert
+AU  - Butenschön, Momme
+AU  - Harle, James
+AU  - Huse, Geir
+AU  - Lehodey, Patrick
+AU  - Lindemann, Christian
+AU  - Memery, Laurent
+AU  - Salihoglu, Baris
+AU  - Senina, Inna
+AU  - Yool, Andrew
+T2  - Progress in Oceanography
+T3  - North Atlantic Ecosystems, the role of climate and anthropogenic forcing on their structure and function
+AB  - It has long been recognised that there are strong interactions and feedbacks between climate, upper ocean biogeochemistry and marine food webs, and also that food web structure and phytoplankton community distribution are important determinants of variability in carbon production and export from the euphotic zone. Numerical models provide a vital tool to explore these interactions, given their capability to investigate multiple connected components of the system and the sensitivity to multiple drivers, including potential future conditions. A major driver for ecosystem model development is the demand for quantitative tools to support ecosystem-based management initiatives. The purpose of this paper is to review approaches to the modelling of marine ecosystems with a focus on the North Atlantic Ocean and its adjacent shelf seas, and to highlight the challenges they face and suggest ways forward. We consider the state of the art in simulating oceans and shelf sea physics, planktonic and higher trophic level ecosystems, and look towards building an integrative approach with these existing tools. We note how the different approaches have evolved historically and that many of the previous obstacles to harmonisation may no longer be present. We illustrate this with examples from the on-going and planned modelling effort in the Integrative Modelling Work Package of the EURO-BASIN programme.
+DA  - 2014/12//
+PY  - 2014
+DO  - https://doi.org/10.1016/j.pocean.2014.04.024
+DP  - ScienceDirect
+VL  - 129, Part B
+SP  - 285
+EP  - 313
+J2  - Progress in Oceanography
+SN  - 0079-6611
+ST  - Challenges in integrative approaches to modelling the marine ecosystems of the North Atlantic
+UR  - http://www.sciencedirect.com/science/article/pii/S007966111400072X
+Y2  - 2015/04/01/11:05:08
+L2  - http://www.sciencedirect.com/science/article/pii/S007966111400072X
+ER  - 
+
+TY  - JOUR
+TI  - Challenges and difficulties in assessing the environmental status under the requirements of the Ecosystem Approach in North African countries, illustrated by eutrophication assessment
+AU  - Garmendia, Maialen
+AU  - Borja, Ángel
+AU  - Breton, Françoise
+AU  - Butenschön, Momme
+AU  - Marín, Anna
+AU  - Miller, Peter I.
+AU  - Morisseau, François
+AU  - Xu, Weidong
+T2  - Environmental Monitoring and Assessment
+AB  - Marine ecosystems provide many ecosystem goods and services. However, these ecosystems and the benefits they create for humans are subject to competing uses and increasing pressures. As a consequence of the increasing threats to the marine environment, several regulations require applying an ecosystem-based approach for managing the marine environment. Within the Mediterranean Sea, in 2008, the Contracting Parties of the Mediterranean Action Plan decided to progressively apply the Ecosystem Approach (EcAp) with the objective of achieving Good Environmental Status (GES) for 2018. To assess the environmental status, the EcAp proposes 11 Ecological Objectives, each of which requires a set of relevant indicators to be integrated. Progress towards the EcAp entails a gradual and important challenge for North African countries, and efforts have to be initiated to propose and discuss methods. Accordingly, to enhance the capacity of North African countries to implement EcAp and particularly to propose and discuss indicators and methods to assess GES, the aim of this manuscript is to identify the practical problems and gaps found at each stage of the environmental status assessment process. For this purpose, a stepwise method has been proposed to assess the environmental status using Ecologic Objective 5-Eutrophication as example.
+DA  - 2015/04/24/
+PY  - 2015
+DO  - https://doi.org/10.1007/s10661-015-4316-x
+DP  - link.springer.com
+VL  - 187
+IS  - 5
+SP  - 1
+EP  - 22
+J2  - Environ Monit Assess
+LA  - en
+SN  - 0167-6369, 1573-2959
+UR  - http://link.springer.com/article/10.1007/s10661-015-4316-x
+Y2  - 2015/05/11/12:26:01
+L2  - http://link.springer.com/article/10.1007%2Fs10661-015-4316-x
+KW  - Mediterranean Sea
+KW  - Ecology
+KW  - eutrophication
+KW  - Environmental Monitoring/Analysis
+KW  - Environmental Management
+KW  - Indicators
+KW  - Good Environmental Status
+KW  - Atmospheric Protection/Air Quality Control/Air Pollution
+KW  - Ecosystem Approach
+KW  - Ecotoxicology
+KW  - Mediterranean Action Plan
+KW  - North Africa
+ER  - 
+
+TY  - JOUR
+TI  - Building the capacity for forecasting marine biogeochemistry and ecosystems: recent advances and future developments
+AU  - Gehlen, M.
+AU  - Barciela, R.
+AU  - Bertino, L.
+AU  - Brasseur, P.
+AU  - Butenschön, M.
+AU  - Chai, F.
+AU  - Crise, A.
+AU  - Drillet, Y.
+AU  - Ford, D.
+AU  - Lavoie, D.
+AU  - Lehodey, P.
+AU  - Perruche, C.
+AU  - Samuelsen, A.
+AU  - Simon, E.
+T2  - Journal of Operational Oceanography
+AB  - Building the capacity for monitoring and forecasting marine biogeochemistry and ecosystem dynamics is a scientific challenge of strategic importance in the context of rapid environmental change and growing public awareness of its potential impacts on marine ecosystems and resources. National Operational Oceanography centres have started to take up this challenge by integrating biogeochemistry in operational systems. Ongoing activities are illustrated in this paper by presenting examples of (pre-)operational biogeochemical systems active in Europe and North America for global to regional applications. First-order principles underlying biogeochemical modelling are briefly introduced along with the description of biogeochemical components implemented in these systems. Applications are illustrated with examples from the fields of hindcasting and monitoring ocean primary production, the assessment of the ocean carbon cycle and the management of living resources. Despite significant progress over the past 5 years in integrating biogeochemistry into (pre-)operational data-assimilation systems, a sustained research effort is still needed to assess these systems and their products with respect to their usefulness to the management of marine systems.
+DA  - 2015/04/17/
+PY  - 2015
+DO  - https://doi.org/10.1080/1755876X.2015.1022350
+DP  - Taylor and Francis+NEJM
+VL  - 8
+IS  - sup1
+SP  - s168
+EP  - s187
+SN  - 1755-876X
+ST  - Building the capacity for forecasting marine biogeochemistry and ecosystems
+UR  - http://www.tandfonline.com/doi/abs/10.1080/1755876X.2015.1022350
+Y2  - 2015/06/10/22:38:30
+L2  - http://www.tandfonline.com/doi/full/10.1080/1755876X.2015.1022350
+ER  - 
+
+TY  - JOUR
+TI  - Modelling a light-driven phytoplankton succession
+AU  - Polimene, L.
+AU  - Brunet, C.
+AU  - Butenschön, M.
+AU  - Martinez-Vicente, V.
+AU  - Widdicombe, C.
+AU  - Torres, R.
+AU  - Allen, J. I.
+T2  - Journal of Plankton Research
+AB  - We used a numerical model to investigate if and to what extent cellular photoprotective capacity accounts for succession and vertical distribution of marine phytoplankton species/groups. A model describing xanthophyll photoprotective activity in phytoplankton has been implemented in the European Regional Sea Ecosystem Model and applied at the station L4 in the Western English Channel. Primary producers were subdivided into three phytoplankton functional types defined in terms of their capacity to acclimate to different light-specific environments: low light (LL-type), high light (HL-type) and variable light (VL-type) adapted species. The LL-type is assumed to have low cellular level of xanthophyll-cycling pigments (PX) relative to the modelled photosynthetically active pigments (chlorophyll and fucoxanthin (FUCO) = PSP). The HL-type has high PX content relative to PSP while VL-type presents an intermediate PX to PSP ratio. Furthermore, the VL-type is capable of reversibly converting FUCO to PX and synthesizing new PX under high-light stress. In order to reproduce phytoplankton community succession with each of the three groups being dominant in different periods of the year, we had also to assume reduced grazing pressure on HL-adapted species. Model simulations realistically reproduce the observed seasonal patterns of pigments and nutrients highlighting the reasonability of the underpinning assumptions. Our model suggests that pigment-mediated photophysiology plays a primary role in determining the evolution of marine phytoplankton communities in the winter-spring period corresponding to the shoaling of the mixed layer and the increase of light intensity. Grazing selectivity however contributes to the phytoplankton community composition in summer.
+DA  - 2014/01/01/
+PY  - 2014
+DO  - https://doi.org/10.1093/plankt/fbt086
+DP  - plankt.oxfordjournals.org
+VL  - 36
+IS  - 1
+SP  - 214
+EP  - 229
+J2  - J. Plankton Res.
+LA  - en
+SN  - 0142-7873, 1464-3774
+UR  - http://plankt.oxfordjournals.org/content/36/1/214
+Y2  - 2015/06/18/12:23:11
+L2  - http://plankt.oxfordjournals.org/content/36/1/214.full
+KW  - marine ecosystem models
+KW  - photoprotection
+KW  - phytoplankton succession
+KW  - xanthophyll-cycling pigments
+ER  - 
+
+TY  - JOUR
+TI  - Placing biodiversity in ecosystem models without getting lost in translation
+AU  - Queirós, Ana M.
+AU  - Bruggeman, Jorn
+AU  - Stephens, Nicholas
+AU  - Artioli, Yuri
+AU  - Butenschön, Momme
+AU  - Blackford, Jeremy C.
+AU  - Widdicombe, Stephen
+AU  - Allen, J. Icarus
+AU  - Somerfield, Paul J.
+T2  - Journal of Sea Research
+T3  - Protecting Marine Biodiversity to Preserve Ecosystem Functioning: a Tribute to Carlo Heip
+AB  - A key challenge to progressing our understanding of biodiversity's role in the sustenance of ecosystem function is the extrapolation of the results of two decades of dedicated empirical research to regional, global and future landscapes. Ecosystem models provide a platform for this progression, potentially offering a holistic view of ecosystems where, guided by the mechanistic understanding of processes and their connection to the environment and biota, large-scale questions can be investigated. While the benefits of depicting biodiversity in such models are widely recognized, its application is limited by difficulties in the transfer of knowledge from small process oriented ecology into macro-scale modelling. Here, we build on previous work, breaking down key challenges of that knowledge transfer into a tangible framework, highlighting successful strategies that both modelling and ecology communities have developed to better interact with one another. We use a benthic and a pelagic case-study to illustrate how aspects of the links between biodiversity and ecosystem process have been depicted in marine ecosystem models (ERSEM and MIRO), from data, to conceptualisation and model development. We hope that this framework may help future interactions between biodiversity researchers and model developers by highlighting concrete solutions to common problems, and in this way contribute to the advance of the mechanistic understanding of the role of biodiversity in marine (and terrestrial) ecosystems.
+DA  - 2015/04//
+PY  - 2015
+DO  - https://doi.org/10.1016/j.seares.2014.10.004
+DP  - ScienceDirect
+VL  - 98
+SP  - 83
+EP  - 90
+J2  - Journal of Sea Research
+SN  - 1385-1101
+UR  - http://www.sciencedirect.com/science/article/pii/S1385110114001750
+Y2  - 2015/09/06/18:09:34
+L2  - http://www.sciencedirect.com/science/article/pii/S1385110114001750
+KW  - functional diversity
+KW  - ecosystem function
+KW  - BEF
+KW  - biogeochemical
+KW  - species richness
+KW  - trait
+ER  - 
+
+TY  - JOUR
+TI  - Validation of the NEMO-ERSEM operational ecosystem model for the North West European Continental Shelf
+AU  - Edwards, K. P.
+AU  - Barciela, R.
+AU  - Butenschön, M.
+T2  - Ocean Sci.
+AB  - This paper details updates to the Met Office's operational coupled hydrodynamic-ecosystem model from the 7 km Medium-Resolution Continental Shelf – POLCOMS-ERSEM (MRCS-PE) system (Siddorn et al., 2007) to the 7 km Atlantic Margin Model NEMO-ERSEM (AMM7-NE) system. We also provide a validation of the ecosystem component of the new operational system. Comparisons have been made between the model variables and available in situ, satellite and climatological data. The AMM7-NE system has also been benchmarked against the MRCS-PE system. The transition to the new AMM7-NE system was successful and it has been running operationally since March 2012 and has been providing products through MyOcean (http://www.myocean.eu.org) since that time. The results presented herein show the AMM7-NE system performs better than the MRCS-PE system with the most improvement in the model nutrient fields. The problem of nutrient accumulation in the MRCS-PE system appears to be solved in the new AMM7-NE system with nutrient fields improved throughout the domain as discussed in Sect. 4. Improvements in model chlorophyll are also seen but are more modest.
+DA  - 2012/11/21/
+PY  - 2012
+DO  - https://doi.org/10.5194/os-8-983-2012
+DP  - Copernicus Online Journals
+VL  - 8
+IS  - 6
+SP  - 983
+EP  - 1000
+J2  - Ocean Sci.
+SN  - 1812-0792
+UR  - http://www.ocean-sci.net/8/983/2012/
+Y2  - 2015/09/06/18:23:02
+L2  - http://www.ocean-sci.net/8/983/2012/
+ER  - 
+
+TY  - JOUR
+TI  - Oceanic controls on the primary production of the northwest European continental shelf: model experiments under recent past conditions and a potential future scenario
+AU  - Holt, J.
+AU  - Butenschön, M.
+AU  - Wakelin, S. L.
+AU  - Artioli, Y.
+AU  - Allen, J. I.
+T2  - Biogeosciences
+AB  - In this paper we clearly demonstrate that changes in oceanic nutrients are a first order factor in determining changes in the primary production of the northwest European continental shelf on time scales of 5–10 yr. We present a series of coupled hydrodynamic ecosystem modelling simulations, using the POLCOMS-ERSEM system. These are forced by both reanalysis data and a single example of a coupled ocean-atmosphere general circulation model (OA-GCM) representative of possible conditions in 2080–2100 under an SRES A1B emissions scenario, along with the corresponding present day control. The OA-GCM forced simulations show a substantial reduction in surface nutrients in the open-ocean regions of the model domain, comparing future and present day time-slices. This arises from a large increase in oceanic stratification. Tracer transport experiments identify a substantial fraction of on-shelf water originates from the open-ocean region to the south of the domain, where this increase is largest, and indeed the on-shelf nutrient and primary production are reduced as this water is transported on-shelf. This relationship is confirmed quantitatively by comparing changes in winter nitrate with total annual nitrate uptake. The reduction in primary production by the reduced nutrient transport is mitigated by on-shelf processes relating to temperature, stratification (length of growing season) and recycling. Regions less exposed to ocean-shelf exchange in this model (Celtic Sea, Irish Sea, English Channel, and Southern North Sea) show a modest increase in primary production (of 5–10%) compared with a decrease of 0–20% in the outer shelf, Central and Northern North Sea. These findings are backed up by a boundary condition perturbation experiment and a simple mixing model.
+DA  - 2012/01/06/
+PY  - 2012
+DO  - https://doi.org/10.5194/bg-9-97-2012
+DP  - Copernicus Online Journals
+VL  - 9
+IS  - 1
+SP  - 97
+EP  - 117
+J2  - Biogeosciences
+SN  - 1726-4189
+ST  - Oceanic controls on the primary production of the northwest European continental shelf
+UR  - http://www.biogeosciences.net/9/97/2012/
+Y2  - 2015/09/06/18:23:57
+L2  - http://www.biogeosciences.net/9/97/2012/
+ER  - 
+
+TY  - JOUR
+TI  - Biological control of pCO2 at station L4 in the Western English Channel over 3 years
+AU  - Litt, Emmer J.
+AU  - Hardman-Mountford, Nick J.
+AU  - Blackford, Jerry C.
+AU  - Mitchelson-Jacob, Gay
+AU  - Goodman, Andrew
+AU  - Moore, Gerald F.
+AU  - Cummings, Denise G.
+AU  - Butenschön, Momme
+T2  - Journal of Plankton Research
+AB  - Understanding carbon fluxes in shelf systems is an important aspect of quantifying global carbon budgets. Three years of pCO2 observations are analysed from spring to autumn during 2005, 2007 and 2008 at L4, a seasonally stratified station in the Western English Channel. A general trend from low to high seawater pCO2 during each year was observed, punctuated by episodic low seawater pCO2 events. Air–sea CO2 flux dynamics derived from seawater pCO2 showed spring and summer to be times of atmospheric CO2 drawdown during stratified water conditions while autumn saw the breakdown of stratification and CO2 outgassing. The largest CO2 instantaneous drawdown was observed during high wind events. Seawater pCO2 at L4 is controlled by metabolic processes, solubility and advection processes, although to a varying extent between years. While tidal influence, movement of water masses and rapid phytoplankton blooms contribute to large pCO2 fluctuations between adjacent samples, distinct quasi-seasonal phases are observed due to the natural physical and biological cyclic controls on seawater pCO2.
+DA  - 2010/05/01/
+PY  - 2010
+DO  - https://doi.org/10.1093/plankt/fbp133
+DP  - plankt.oxfordjournals.org
+VL  - 32
+IS  - 5
+SP  - 621
+EP  - 629
+J2  - J. Plankton Res.
+LA  - en
+SN  - 0142-7873, 1464-3774
+UR  - http://plankt.oxfordjournals.org/content/32/5/621
+Y2  - 2015/09/06/18:25:02
+L2  - http://plankt.oxfordjournals.org/content/32/5/621
+ER  - 
+
+TY  - JOUR
+TI  - How should sparse marine in situ measurements be compared to a continuous model: an example
+AU  - de Mora, L.
+AU  - Butenschön, M.
+AU  - Allen, J. I.
+T2  - Geosci. Model Dev.
+AB  - This work demonstrates an example of the importance of an adequate method to sub-sample model results when comparing with in situ measurements. A test of model skill was performed by employing a point-to-point method to compare a multi-decadal hindcast against a sparse, unevenly distributed historic in situ dataset. The point-to-point method masked out all hindcast cells that did not have a corresponding in situ measurement in order to match each in situ measurement against its most similar cell from the model. The application of the point-to-point method showed that the model was successful at reproducing the inter-annual variability of the in situ datasets. Furthermore, this success was not immediately apparent when the measurements were aggregated to regional averages. Time series, data density and target diagrams were employed to illustrate the impact of switching from the regional average method to the point-to-point method. The comparison based on regional averages gave significantly different and sometimes contradicting results that could lead to erroneous conclusions on the model performance. Furthermore, the point-to-point technique is a more correct method to exploit sparse uneven in situ data while compensating for the variability of its sampling. We therefore recommend that researchers take into account for the limitations of the in situ datasets and process the model to resemble the data as much as possible.
+DA  - 2013/04/25/
+PY  - 2013
+DO  - https://doi.org/10.5194/gmd-6-533-2013
+DP  - Copernicus Online Journals
+VL  - 6
+IS  - 2
+SP  - 533
+EP  - 548
+J2  - Geosci. Model Dev.
+SN  - 1991-9603
+ST  - How should sparse marine in situ measurements be compared to a continuous model
+UR  - http://www.geosci-model-dev.net/6/533/2013/
+Y2  - 2015/09/06/18:25:48
+L2  - http://www.geosci-model-dev.net/6/533/2013/
+ER  - 
+
+TY  - JOUR
+TI  - Wavelet-based spatial comparison technique for analysing and evaluating two-dimensional geophysical model fields
+AU  - Saux Picart, S.
+AU  - Butenschön, M.
+AU  - Shutler, J. D.
+T2  - Geosci. Model Dev.
+AB  - Complex numerical models of the Earth's environment, based around 3-D or 4-D time and space domains are routinely used for applications including climate predictions, weather forecasts, fishery management and environmental impact assessments. Quantitatively assessing the ability of these models to accurately reproduce geographical patterns at a range of spatial and temporal scales has always been a difficult problem to address. However, this is crucial if we are to rely on these models for decision making. Satellite data are potentially the only observational dataset able to cover the large spatial domains analysed by many types of geophysical models. Consequently optical wavelength satellite data is beginning to be used to evaluate model hindcast fields of terrestrial and marine environments. However, these satellite data invariably contain regions of occluded or missing data due to clouds, further complicating or impacting on any comparisons with the model. This work builds on a published methodology, that evaluates precipitation forecast using radar observations based on predefined absolute thresholds. It allows model skill to be evaluated at a range of spatial scales and rain intensities. Here we extend the original method to allow its generic application to a range of continuous and discontinuous geophysical data fields, and therefore allowing its use with optical satellite data. This is achieved through two major improvements to the original method: (i) all thresholds are determined based on the statistical distribution of the input data, so no a priori knowledge about the model fields being analysed is required and (ii) occluded data can be analysed without impacting on the metric results. The method can be used to assess a model's ability to simulate geographical patterns over a range of spatial scales. We illustrate how the method provides a compact and concise way of visualising the degree of agreement between spatial features in two datasets. The application of the new method, its handling of bias and occlusion and the advantages of the novel method are demonstrated through the analysis of model fields from a marine ecosystem model.
+DA  - 2012/02/13/
+PY  - 2012
+DO  - https://doi.org/10.5194/gmd-5-223-2012
+DP  - Copernicus Online Journals
+VL  - 5
+IS  - 1
+SP  - 223
+EP  - 230
+J2  - Geosci. Model Dev.
+SN  - 1991-9603
+UR  - http://www.geosci-model-dev.net/5/223/2012/
+Y2  - 2015/09/06/18:26:32
+L2  - http://www.geosci-model-dev.net/5/223/2012/
+ER  - 
+
+TY  - JOUR
+TI  - What can ecosystem models tell us about the risk of eutrophication in the North Sea?
+AU  - Saux Picart, S.
+AU  - Allen, J. I.
+AU  - Butenschön, M.
+AU  - Artioli, Y.
+AU  - Mora, L. de
+AU  - Wakelin, S.
+AU  - Holt, J.
+T2  - Climatic Change
+AB  - Eutrophication is a process resulting from an increase in anthropogenic nutrient inputs from rivers and other sources, the consequences of which can include enhanced algal biomass, changes in plankton community composition and oxygen depletion near the seabed. Within the context of the Marine Strategy Framework Directive, indicators (and associated threshold) have been identified to assess the eutrophication status of an ecosystem. Large databases of observations (in situ) are required to properly assess the eutrophication status. Marine hydrodynamic/ecosystem models provide continuous fields of a wide range of ecosystem characteristics. Using such models in this context could help to overcome the lack of in situ data, and provide a powerful tool for ecosystem-based management and policy makers. Here we demonstrate a methodology that uses a combination of model outputs and in situ data to assess the risk of eutrophication in the coastal domain of the North Sea. The risk of eutrophication is computed for the past and present time as well as for different future scenarios. This allows us to assess both the current risk and its sensitivity to anthropogenic pressure and climate change. Model sensitivity studies suggest that the coastal waters of the North Sea may be more sensitive to anthropogenic rivers loads than climate change in the near future (to 2040).
+DA  - 2014/03/22/
+PY  - 2014
+DO  - https://doi.org/10.1007/s10584-014-1071-x
+DP  - link.springer.com
+VL  - 132
+IS  - 1
+SP  - 111
+EP  - 125
+J2  - Climatic Change
+LA  - en
+SN  - 0165-0009, 1573-1480
+UR  - http://link.springer.com/article/10.1007/s10584-014-1071-x
+Y2  - 2015/09/06/18:30:42
+L2  - http://link.springer.com/article/10.1007/s10584-014-1071-x
+KW  - Atmospheric Sciences
+KW  - Climate Change/Climate Change Impacts
+ER  - 
+
+TY  - JOUR
+TI  - Modelling the combined impacts of climate change and direct anthropogenic drivers on the ecosystem of the northwest European continental shelf
+AU  - Wakelin, Sarah L.
+AU  - Artioli, Yuri
+AU  - Butenschön, Momme
+AU  - Allen, J. Icarus
+AU  - Holt, Jason T.
+T2  - Journal of Marine Systems
+AB  - The potential response of the marine ecosystem of the northwest European continental shelf to climate change under a medium emissions scenario (SRES A1B) is investigated using the coupled hydrodynamics-ecosystem model POLCOMS-ERSEM. Changes in the near future (2030–2040) and the far future (2082–2099) are compared to the recent past (1983–2000). The sensitivity of the ecosystem to potential changes in multiple anthropogenic drivers (river nutrient loads and benthic trawling) in the near future is compared to the impact of changes in climate. With the exception of the biomass of benthic organisms, the influence of the anthropogenic drivers only exceeds the impact of climate change in coastal regions. Increasing river nitrogen loads has a limited impact on the ecosystem whilst reducing river nitrogen and phosphate concentrations affects net primary production (netPP) and phytoplankton and zooplankton biomass. Direct anthropogenic forcing is seen to mitigate/amplify the effects of climate change. Increasing river nitrogen has the potential to amplify the effects of climate change at the coast by increasing netPP. Reducing river nitrogen and phosphate mitigates the effects of climate change for netPP and the biomass of small phytoplankton and large zooplankton species but amplifies changes in the biomass of large phytoplankton and small zooplankton.
+DA  - 2015/12//
+PY  - 2015
+DO  - https://doi.org/10.1016/j.jmarsys.2015.07.006
+DP  - ScienceDirect
+VL  - 152
+SP  - 51
+EP  - 63
+J2  - Journal of Marine Systems
+SN  - 0924-7963
+UR  - http://www.sciencedirect.com/science/article/pii/S092479631500130X
+Y2  - 2015/09/06/18:36:37
+L2  - http://www.sciencedirect.com/science/article/pii/S092479631500130X
+KW  - POLCOMS-ERSEM
+KW  - Modelling
+KW  - Ecosystems
+KW  - Climatic changes
+KW  - Man-induced effects
+KW  - Northwest European Continental Shelf
+ER  - 
+
+TY  - JOUR
+TI  - Heterogeneity of impacts of high CO2 on the North Western European Shelf
+AU  - Artioli, Y.
+AU  - Blackford, J. C.
+AU  - Nondal, G.
+AU  - Bellerby, R. G. J.
+AU  - Wakelin, S. L.
+AU  - Holt, J. T.
+AU  - Butenschön, M.
+AU  - Allen, J. I.
+T2  - Biogeosciences
+AB  - The increase in atmospheric CO2 is a dual threat to the marine environment: from one side it drives climate change, leading to modifications in water temperature, circulation patterns and stratification intensity; on the other side it causes a decrease in marine pH (ocean acidification, or OA) due to the increase in dissolved CO2. Assessing the combined impact of climate change and OA on marine ecosystems is a challenging task. The response of the ecosystem to a single driver can be highly variable and remains still uncertain; additionally the interaction between these can be either synergistic or antagonistic. In this work we use the coupled oceanographic–ecosystem model POLCOMS-ERSEM driven by climate forcing to study the interaction between climate change and OA. We focus in particular on carbonate chemistry, primary and secondary production. The model has been run in three different configurations in order to assess separately the impacts of climate change on net primary production and of OA on the carbonate chemistry, which have been strongly supported by scientific literature, from the impact of biological feedbacks of OA on the ecosystem, whose uncertainty still has to be well constrained. The global mean of the projected decrease of pH at the end of the century is about 0.27 pH units, but the model shows significant interaction among the drivers and high variability in the temporal and spatial response. As a result of this high variability, critical tipping point can be locally and/or temporally reached: e.g. undersaturation with respect to aragonite is projected to occur in the deeper part of the central North Sea during summer. Impacts of climate change and of OA on primary and secondary production may have similar magnitude, compensating in some area and exacerbating in others.
+DA  - 2014/02/03/
+PY  - 2014
+DO  - https://doi.org/10.5194/bg-11-601-2014
+DP  - Copernicus Online Journals
+VL  - 11
+IS  - 3
+SP  - 601
+EP  - 612
+J2  - Biogeosciences
+SN  - 1726-4189
+UR  - http://www.biogeosciences.net/11/601/2014/
+Y2  - 2015/09/06/19:13:36
+L2  - http://www.biogeosciences.net/11/601/2014/
+ER  - 
+
+TY  - JOUR
+TI  - The carbonate system in the North Sea: Sensitivity and model validation
+AU  - Artioli, Yuri
+AU  - Blackford, Jeremy C.
+AU  - Butenschön, Momme
+AU  - Holt, Jason T.
+AU  - Wakelin, Sarah L.
+AU  - Thomas, Helmuth
+AU  - Borges, Alberto V.
+AU  - Allen, J. Icarus
+T2  - Journal of Marine Systems
+AB  - The ocean plays an important role in regulating the climate, acting as a sink for carbon dioxide, perturbing the carbonate system and resulting in a slow decrease of seawater pH.
+
+Understanding the dynamics of the carbonate system in shelf sea regions is necessary to evaluate the impact of Ocean Acidification (OA) in these societally important ecosystems. Complex hydrodynamic and ecosystem coupled models provide a method of capturing the significant heterogeneity of these areas. However rigorous validation is essential to properly assess the reliability of such models. The coupled model POLCOMS–ERSEM has been implemented in the North Western European shelf with a new parameterization for alkalinity explicitly accounting for riverine inputs and the influence of biological processes. The model has been validated in a like with like comparison with North Sea data from the CANOBA dataset. The model shows good to reasonable agreement for the principal variables, physical (temperature and salinity), biogeochemical (nutrients) and carbonate system (dissolved inorganic carbon and total alkalinity), but simulation of the derived variables, pH and pCO2, are not yet fully satisfactory. This high uncertainty is attributed mostly to riverine forcing and primary production. This study suggests that the model is a useful tool to provide information on Ocean Acidification scenarios, but uncertainty on pH and pCO2 needs to be reduced, particularly when impacts of OA on ecosystem functions are included in the model systems.
+DA  - 2012/10//
+PY  - 2012
+DO  - https://doi.org/10.1016/j.jmarsys.2012.04.006
+DP  - ScienceDirect
+VL  - 102–104
+SP  - 1
+EP  - 13
+J2  - Journal of Marine Systems
+SN  - 0924-7963
+ST  - The carbonate system in the North Sea
+UR  - http://www.sciencedirect.com/science/article/pii/S092479631200111X
+Y2  - 2015/09/06/19:14:01
+L2  - http://www.sciencedirect.com/science/article/pii/S092479631200111X
+KW  - pH
+KW  - alkalinity
+KW  - North Sea
+KW  - Ocean Acidification
+KW  - Model validation
+ER  - 
+
+TY  - JOUR
+TI  - Quantitative pathways for Northeast Atlantic fisheries based on climate, ecological–economic and governance modelling scenarios
+AU  - Mullon, C.
+AU  - Steinmetz, F.
+AU  - Merino, G.
+AU  - Fernandes, J. A.
+AU  - Cheung, W. W. L.
+AU  - Butenschön, M.
+AU  - Barange, M.
+T2  - Ecological Modelling
+AB  - Here we present quantitative projections of potential futures for ecosystems in the North Atlantic basin generated from coupling a climate change-driven biophysical model (representing ecosystem and fish populations under climate change) and a scenario-driven ecological–economic model (representing fleets and industries under economic globalization). Four contrasting scenarios (Baseline, Fortress, Global Commons, Free Trade) were defined from the perspective of alternative regional management and governance of the oceanic basin, providing pathways for the future of ecosystems in the Northeast Atlantic basin by 2040. Results indicate that in the time frame considered: (1) the effects of governance and trade decisions are more significant in determining outcomes than the effects of climate change alone, (2) climate change is likely to result in a poleward latitudinal shift of species ranges and thus resources, with implications for exploitation patterns, (3) the level of fisheries regulation is the most important factor in determining the long term evolution of the fisheries system, (4) coupling climate change and governance impacts demonstrates the complex interaction between different components of this social–ecological system, (5) an important driver of change for the future of the North Atlantic and the European fishing fleets appears to be the interplay between wild fisheries and aquaculture development, and finally (6) scenarios demonstrate that the viability and profit of fisheries industries is highly volatile. This study highlights the need to explore basin-scale policy that combines medium to long-term environmental and socio-economic considerations, and the importance of defining alternative sustainable pathways.
+DA  - 2016/01/24/
+PY  - 2016
+DO  - https://doi.org/10.1016/j.ecolmodel.2015.09.027
+DP  - ScienceDirect
+VL  - 320
+SP  - 273
+EP  - 291
+J2  - Ecological Modelling
+SN  - 0304-3800
+UR  - http://www.sciencedirect.com/science/article/pii/S0304380015004585
+Y2  - 2015/11/18/07:31:11
+L2  - http://www.sciencedirect.com/science/article/pii/S0304380015004585
+KW  - climate change
+KW  - Atlantic Ocean
+KW  - Climatic, bio-geochemical and bio-economic modelling
+KW  - Economic equilibrium
+KW  - Management scenarios
+KW  - Network modelling
+ER  - 
+
+TY  - JOUR
+TI  - Potential impacts of climate change on the primary production of regional seas: A comparative analysis of five European seas
+AU  - Holt, Jason
+AU  - Schrum, Corinna
+AU  - Cannaby, Heather
+AU  - Daewel, Ute
+AU  - Allen, Icarus
+AU  - Artioli, Yuri
+AU  - Bopp, Laurent
+AU  - Butenschon, Momme
+AU  - Fach, Bettina A.
+AU  - Harle, James
+AU  - Pushpadas, Dhanya
+AU  - Salihoglu, Baris
+AU  - Wakelin, Sarah
+T2  - Progress in Oceanography
+AB  - Regional seas are potentially highly vulnerable to climate change, yet are the most directly societally important regions of the marine environment. The combination of widely varying conditions of mixing, forcing, geography (coastline and bathymetry) and exposure to the open-ocean makes these seas subject to a wide range of physical processes that mediates how large scale climate change impacts on these seas’ ecosystems. In this paper we explore the response of five regional sea areas to potential future climate change, acting via atmospheric, oceanic and terrestrial vectors. These include the Barents Sea, Black Sea, Baltic Sea, North Sea, Celtic Seas, and are contrasted with a region of the Northeast Atlantic. Our aim is to elucidate the controlling dynamical processes and how these vary between and within these seas. We focus on primary production and consider the potential climatic impacts on: long term changes in elemental budgets, seasonal and mesoscale processes that control phytoplankton’s exposure to light and nutrients, and briefly direct temperature response. We draw examples from the MEECE FP7 project and five regional model systems each using a common global Earth System Model as forcing. We consider a common analysis approach, and additional sensitivity experiments.
+
+Comparing projections for the end of the 21st century with mean present day conditions, these simulations generally show an increase in seasonal and permanent stratification (where present). However, the first order (low- and mid-latitude) effect in the open ocean projections of increased permanent stratification leading to reduced nutrient levels, and so to reduced primary production, is largely absent, except in the NE Atlantic. Even in the two highly stratified, deep water seas we consider (Black and Baltic Seas) the increase in stratification is not seen as a first order control on primary production. Instead, results show a highly heterogeneous picture of positive and negative change arising from complex combinations of multiple physical drivers, including changes in mixing, circulation and temperature, which act both locally and non-locally through advection.
+DA  - 2016/01//
+PY  - 2016
+DO  - https://doi.org/10.1016/j.pocean.2015.11.004
+DP  - ScienceDirect
+VL  - 140
+SP  - 91
+EP  - 115
+J2  - Progress in Oceanography
+SN  - 0079-6611
+ST  - Potential impacts of climate change on the primary production of regional seas
+UR  - http://www.sciencedirect.com/science/article/pii/S0079661115002372
+Y2  - 2016/01/27/13:10:27
+L2  - http://www.sciencedirect.com/science/article/pii/S0079661115002372
+ER  - 
+
+TY  - JOUR
+TI  - Modelling the future biogeography of North Atlantic zooplankton communities in response to climate change
+AU  - Villarino, Ernesto
+AU  - Chust, Guillem
+AU  - Licandro, Priscilla
+AU  - Butenschön, Momme
+AU  - Ibaibarriaga, Leire
+AU  - Larraaga, Aitor
+AU  - Irigoien, Xabier
+T2  - Marine Ecology Progress Series
+AB  - Advances in habitat and climate modelling allow us to reduce uncertainties of climate change impacts on species distribution. We evaluated the impacts of future climate change on community structure, diversity, distribution and phenology of 14 copepod species in the North Atlantic. We developed and validated habitat models for key zooplankton species using continuous plankton recorder (CPR) survey data collected at mid latitudes of the North Atlantic. Generalized additive models (GAMs) were applied to relate the occurrence of species to environmental variables. Models were projected to future (2080–2099) environmental conditions using coupled hydroclimatix–biogeochemical models under the Intergovernmental Panel on Climate Change (IPCC) A1B climate scenario, and compared to present (2001–2020) conditions. Our projections indicated that the copepod community is expected to respond substantially to climate change: a mean poleward latitudinal shift of 8.7 km per decade for the overall community with an important species range variation (–15 to 18 km per decade); the species seasonal peak is expected to occur 12–13 d earlier for Calanus finmarchicus and C. hyperboreus; and important changes in community structure are also expected (high species turnover of 43–79% south of the Oceanic Polar Front). The impacts of the change expected by the end of the century under IPCC global warming scenarios on copepods highlight poleward shifts, earlier seasonal peak and changes in biodiversity spatial patterns that might lead to alterations of the future North Atlantic pelagic ecosystem. Our model and projections are supported by a temporal validation undertaken using the North Atlantic climate regime shift that occurred in the 1980s: the habitat model built in the cold period (1970–1986) has been validated in the warm period (1987–2004).
+DA  - 2015/07/02/
+PY  - 2015
+DO  - https://doi.org/10.3354/meps11299
+DP  - Inter-Research Science Center
+VL  - 531
+SP  - 121
+EP  - 142
+J2  - Mar Ecol Prog Ser
+UR  - http://www.int-res.com/abstracts/meps/v531/p121-142/
+Y2  - 2016/02/16/16:31:22
+L2  - http://www.int-res.com/abstracts/meps/v531/p121-142/
+ER  - 
+
+TY  - JOUR
+TI  - ERSEM 15.06: a generic model for marine biogeochemistry and the ecosystem dynamics of the lower trophic levels
+AU  - Butenschön, M.
+AU  - Clark, J.
+AU  - Aldridge, J. N.
+AU  - Allen, J. I.
+AU  - Artioli, Y.
+AU  - Blackford, J.
+AU  - Bruggeman, J.
+AU  - Cazenave, P.
+AU  - Ciavatta, S.
+AU  - Kay, S.
+AU  - Lessin, G.
+AU  - van Leeuwen, S.
+AU  - van der Molen, J.
+AU  - de Mora, L.
+AU  - Polimene, L.
+AU  - Sailley, S.
+AU  - Stephens, N.
+AU  - Torres, R.
+T2  - Geosci. Model Dev.
+AB  - The European Regional Seas Ecosystem Model (ERSEM) is one of the most established ecosystem models for the lower trophic levels of the marine food web in the scientific literature. Since its original development in the early nineties it has evolved significantly from a coastal ecosystem model for the North Sea to a generic tool for ecosystem simulations from shelf seas to the global ocean. The current model release contains all essential elements for the pelagic and benthic parts of the marine ecosystem, including the microbial food web, the carbonate system, and calcification. Its distribution is accompanied by a testing framework enabling the analysis of individual parts of the model. Here we provide a detailed mathematical description of all ERSEM components along with case studies of mesocosm-type simulations, water column implementations, and a brief example of a full-scale application for the north-western European shelf. Validation against in situ data demonstrates the capability of the model to represent the marine ecosystem in contrasting environments.
+DA  - 2016/04/05/
+PY  - 2016
+DO  - https://doi.org/10.5194/gmd-9-1293-2016
+DP  - Copernicus Online Journals
+VL  - 9
+IS  - 4
+SP  - 1293
+EP  - 1339
+J2  - Geosci. Model Dev.
+SN  - 1991-9603
+ST  - ERSEM 15.06
+UR  - http://www.geosci-model-dev.net/9/1293/2016/
+Y2  - 2016/04/05/12:58:31
+ER  - 
+
+TY  - JOUR
+TI  - Decadal reanalysis of biogeochemical indicators and fluxes in the North West European shelf-sea ecosystem
+AU  - Ciavatta, S.
+AU  - Kay, S.
+AU  - Saux-Picart, S.
+AU  - Butenschön, M.
+AU  - Allen, J. I.
+T2  - Journal of Geophysical Research: Oceans
+AB  - This paper presents the first decadal reanalysis simulation of the biogeochemistry of the North West European shelf, along with a full evaluation of its skill, confidence, and value. An error-characterized satellite product for chlorophyll was assimilated into a physical-biogeochemical model of the North East Atlantic, applying a localized Ensemble Kalman filter. The results showed that the reanalysis improved the model simulation of assimilated chlorophyll in 60% of the study region. Model validation metrics showed that the reanalysis had skill in matching a large data set of in situ observations for 10 ecosystem variables. Spearman rank correlations were significant and higher than 0.7 for physical-chemical variables (temperature, salinity, and oxygen), ∼0.6 for chlorophyll and nutrients (phosphate, nitrate, and silicate), and significant, though lower in value, for partial pressure of dissolved carbon dioxide (∼0.4). The reanalysis captured the magnitude of pH and ammonia observations, but not their variability. The value of the reanalysis for assessing environmental status and variability has been exemplified in two case studies. The first shows that between 325,000 and 365,000 km2 of shelf bottom waters were vulnerable to oxygen deficiency potentially threatening bottom fishes and benthos. The second application confirmed that the shelf is a net sink of atmospheric carbon dioxide, but the total amount of uptake varies between 36 and 46 Tg C yr−1 at a 90% confidence level. These results indicate that the reanalysis output data set can inform the management of the North West European shelf ecosystem, in relation to eutrophication, fishery, and variability of the carbon cycle.
+DA  - 2016/03/01/
+PY  - 2016
+DO  - https://doi.org/10.1002/2015JC011496
+DP  - Wiley Online Library
+VL  - 121
+IS  - 3
+SP  - 1824
+EP  - 1845
+J2  - J. Geophys. Res. Oceans
+LA  - en
+SN  - 2169-9291
+UR  - http://onlinelibrary.wiley.com/doi/10.1002/2015JC011496/abstract
+Y2  - 2016/06/15/12:07:52
+L2  - http://onlinelibrary.wiley.com/doi/10.1002/2015JC011496/abstract;jsessionid=E7375BF0995D59DE259A204ABDFF0B36.f02t04
+KW  - ocean color
+KW  - marine ecosystems
+KW  - data assimilation
+KW  - dissolved oxygen
+KW  - 4504 Air/sea interactions
+KW  - 4806 Carbon cycling
+KW  - 4805 Biogeochemical cycles, processes, and modeling
+KW  - 4260 Ocean data assimilation and reanalysis
+KW  - 0496 Water quality
+KW  - air-sea flux of carbon dioxide
+KW  - marine policy
+ER  - 
+
+TY  - JOUR
+TI  - Marine regime shifts in ocean biogeochemical models: a case study in the Gulf of Alaska
+AU  - Beaulieu, C.
+AU  - Cole, H.
+AU  - Henson, S.
+AU  - Yool, A.
+AU  - Anderson, T. R.
+AU  - de Mora, L.
+AU  - Buitenhuis, E. T.
+AU  - Butenschön, M.
+AU  - Totterdell, I. J.
+AU  - Allen, J. I.
+T2  - Biogeosciences
+AB  - Regime shifts have been reported in many marine ecosystems, and are often expressed as an abrupt change occurring in multiple physical and biological components of the system. In the Gulf of Alaska, a regime shift in the late 1970s was observed, indicated by an abrupt increase in sea surface temperature and major shifts in the catch of many fish species. A thorough understanding of the extent and mechanisms leading to such regime shifts is challenged by data paucity in time and space. We investigate the ability of a suite of ocean biogeochemistry models of varying complexity to simulate regime shifts in the Gulf of Alaska by examining the presence of abrupt changes in time series of physical variables (sea surface temperature and mixed-layer depth), nutrients and biological variables (chlorophyll, primary productivity and plankton biomass) using change-point analysis. Our results show that some ocean biogeochemical models are capable of simulating the late 1970s shift, manifested as an abrupt increase in sea surface temperature followed by an abrupt decrease in nutrients and biological productivity. Models from low to intermediate complexity simulate an abrupt transition in the late 1970s (i.e. a significant shift from one year to the next) while the transition is smoother in higher complexity models. Our study demonstrates that ocean biogeochemical models can successfully simulate regime shifts in the Gulf of Alaska region. These models can therefore be considered useful tools to enhance our understanding of how changes in physical conditions are propagated from lower to upper trophic levels.
+DA  - 2016/08/12/
+PY  - 2016
+DO  - https://doi.org/10.5194/bg-13-4533-2016
+DP  - Copernicus Online Journals
+VL  - 13
+IS  - 15
+SP  - 4533
+EP  - 4553
+J2  - Biogeosciences
+SN  - 1726-4189
+ST  - Marine regime shifts in ocean biogeochemical models
+UR  - http://www.biogeosciences.net/13/4533/2016/
+Y2  - 2016/08/22/16:31:35
+ER  - 
+
+TY  - JOUR
+TI  - The assessment of a global marine ecosystem model on the basis of emergent properties and ecosystem function: a case study with ERSEM
+AU  - de Mora, L.
+AU  - Butenschön, M.
+AU  - Allen, J. I.
+T2  - Geosci. Model Dev.
+AB  - Ecosystem models are often assessed using quantitative metrics of absolute ecosystem state, but these model–data comparisons are disproportionately vulnerable to discrepancies in the location of important circulation features. An alternative method is to demonstrate the models capacity to represent ecosystem function; the emergence of a coherent natural relationship in a simulation indicates that the model may have an appropriate representation of the ecosystem functions that lead to the emergent relationship. Furthermore, as emergent properties are large-scale properties of the system, model validation with emergent properties is possible even when there is very little or no appropriate data for the region under study, or when the hydrodynamic component of the model differs significantly from that observed in nature at the same location and time.A selection of published meta-analyses are used to establish the validity of a complex marine ecosystem model and to demonstrate the power of validation with emergent properties. These relationships include the phytoplankton community structure, the ratio of carbon to chlorophyll in phytoplankton and particulate organic matter, the ratio of particulate organic carbon to particulate organic nitrogen and the stoichiometric balance of the ecosystem.These metrics can also inform aspects of the marine ecosystem model not available from traditional quantitative and qualitative methods. For instance, these emergent properties can be used to validate the design decisions of the model, such as the range of phytoplankton functional types and their behaviour, the stoichiometric flexibility with regards to each nutrient, and the choice of fixed or variable carbon to nitrogen ratios.         Citation: de Mora, L., Butenschön, M., and Allen, J. I.: The assessment of a global marine ecosystem model on the basis of emergent properties and ecosystem function: a case study with ERSEM, Geosci. Model Dev., 9, 59-76, doi:10.5194/gmd-9-59-2016, 2016.
+DA  - 2016/01/15/
+PY  - 2016
+DO  - https://doi.org/10.5194/gmd-9-59-2016
+DP  - Copernicus Online Journals
+VL  - 9
+IS  - 1
+SP  - 59
+EP  - 76
+J2  - Geosci. Model Dev.
+SN  - 1991-9603
+ST  - The assessment of a global marine ecosystem model on the basis of emergent properties and ecosystem function
+UR  - http://www.geosci-model-dev.net/9/59/2016/
+Y2  - 2016/10/25/16:35:34
+ER  - 
+
+TY  - JOUR
+TI  - The Cost of Reducing the North Atlantic Ocean Biological Carbon Pump
+AU  - Barange, Manuel
+AU  - Butenschön, Momme
+AU  - Yool, Andrew
+AU  - Beaumont, Nicola
+AU  - Fernandes, Jose A.
+AU  - Martin, Adrian P.
+AU  - Allen, J. Icarus
+T2  - Frontiers in Marine Science
+AB  - To predict the impacts of climate change it is essential to understand how anthropogenic change alters the balance between atmosphere, ocean and terrestrial reservoirs of carbon. It has been estimated that natural atmospheric concentrations of CO2 are almost 200ppm lower than they would be without the transport of organic material produced in the surface ocean to depth, an ecosystem service driven by mechanisms collectively referred to as the biological carbon pump. Here we quantify potential reductions in carbon sequestration fluxes in the North Atlantic Ocean through the biological carbon pump over the 21st century, using two independent biogeochemical models, driven by low and high IPCC AR5 carbon emission scenarios. The carbon flux at 1000m (the depth at which it is assumed that carbon is sequestered) in the North Atlantic was estimated to decline between 27-43% by the end of the century, depending on the biogeochemical model and the emission scenario considered. In monetary terms, the value of this loss in carbon sequestration service in the North Atlantic was estimated to range between US$170-US$3,000 billion in abatement (mitigation) costs and US$23-US$401billion in social (adaptation) costs, over the 21st century. Our results challenge the frequent assumption that coastal habitats store more significant amounts of carbon and are under greater threat. We highlight the largely unrecognized economic importance of the natural, blue carbon sequestration service provided by the open ocean, which is predicted to undergo significant anthropogenic-driven change.
+DA  - 2017///
+PY  - 2017
+DO  - https://doi.org/10.3389/fmars.2016.00290
+DP  - Frontiers
+VL  - 3
+J2  - Front. Mar. Sci.
+LA  - English
+SN  - 2296-7745
+UR  - http://journal.frontiersin.org/article/10.3389/fmars.2016.00290/abstract
+Y2  - 2017/01/10/14:14:06
+KW  - climate change
+KW  - North Atlantic
+KW  - carbon sequestration
+KW  - economic valuation
+KW  - Ocean Biochemistry
+ER  - 
+
+TY  - JOUR
+TI  - The UKC2 regional coupled environmental prediction system
+AU  - Lewis, H. W.
+AU  - Castillo Sanchez, J. M.
+AU  - Graham, J.
+AU  - Saulter, A.
+AU  - Bornemann, J.
+AU  - Arnold, A.
+AU  - Fallmann, J.
+AU  - Harris, C.
+AU  - Pearson, D.
+AU  - Ramsdale, S.
+AU  - Martínez-de la Torre, A.
+AU  - Bricheno, L.
+AU  - Blyth, E.
+AU  - Bell, V. A.
+AU  - Davies, H.
+AU  - Marthews, T. R.
+AU  - O'Neill, C.
+AU  - Rumbold, H.
+AU  - O'Dea, E.
+AU  - Brereton, A.
+AU  - Guihou, K.
+AU  - Hines, A.
+AU  - Butenschon, M.
+AU  - Dadson, S. J.
+AU  - Palmer, T.
+AU  - Holt, J.
+AU  - Reynard, N.
+AU  - Best, M.
+AU  - Edwards, J.
+AU  - Siddorn, J.
+T2  - Geosci. Model Dev.
+AB  - It is hypothesized that more accurate prediction and warning of natural hazards, such as of the impacts of severe weather mediated through various components of the environment, require a more integrated Earth System approach to forecasting. This hypothesis can be explored using regional coupled prediction systems, in which the known interactions and feedbacks between different physical and biogeochemical components of the environment across sky, sea and land can be simulated. Such systems are becoming increasingly common research tools. This paper describes the development of the UKC2 regional coupled research system, which has been delivered under the UK Environmental Prediction Prototype project. This provides the first implementation of an atmosphere–land–ocean–wave modelling system focussed on the United Kingdom and surrounding seas at km-scale resolution. The UKC2 coupled system incorporates models of the atmosphere (Met Office Unified Model), land surface with river routing (JULES), shelf-sea ocean (NEMO) and ocean waves (WAVEWATCH III). These components are coupled, via OASIS3-MCT libraries, at unprecedentedly high resolution across the UK within a north-western European regional domain. A research framework has been established to explore the representation of feedback processes in coupled and uncoupled modes, providing a new research tool for UK environmental science. This paper documents the technical design and implementation of UKC2, along with the associated evaluation framework. An analysis of new results comparing the output of the coupled UKC2 system with relevant forced control simulations for six contrasting case studies of 5-day duration is presented. Results demonstrate that performance can be achieved with the UKC2 system that is at least comparable to its component control simulations. For some cases, improvements in air temperature, sea surface temperature, wind speed, significant wave height and mean wave period highlight the potential benefits of coupling between environmental model components. Results also illustrate that the coupling itself is not sufficient to address all known model issues. Priorities for future development of the UK Environmental Prediction framework and component systems are discussed.
+DA  - 2018/01/03/
+PY  - 2018
+DO  - https://doi.org/10.5194/gmd-11-1-2018
+DP  - Copernicus Online Journals
+VL  - 11
+IS  - 1
+SP  - 1
+EP  - 42
+J2  - Geosci. Model Dev.
+SN  - 1991-9603
+UR  - https://www.geosci-model-dev.net/11/1/2018/
+Y2  - 2018/01/09/15:30:52
+L1  - https://www.geosci-model-dev.net/11/1/2018/gmd-11-1-2018.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Defining scenarios of future vectors of change in marine life and associated economic sectors
+AU  - Groeneveld, Rolf A.
+AU  - Bosello, Francesco
+AU  - Butenschön, Momme
+AU  - Elliott, Mike
+AU  - Peck, Myron A.
+AU  - Pinnegar, John K.
+T2  - Estuarine, Coastal and Shelf Science
+T3  - Vectors of change in the marine environment
+AB  - Addressing the multitude of challenges in marine policy requires an integrated approach that considers the multitude of drivers, pressures, and interests, from several disciplinary angles. Scenarios are needed to harmonise the analyses of different components of the marine system, and to deal with the uncertainty and complexity of the societal and biogeophysical dynamics in the system. This study considers a set of socio-economic scenarios to (1) explore possible futures in relation to marine invasive species, outbreak forming species, and gradual changes in species distribution and productivity; and (2) harmonise the projection modelling performed within associated studies. The exercise demonstrates that developing interdisciplinary scenarios as developed in this study is particularly complicated due to (1) the wide variety in endogeneity or exogeneity of variables in the different analyses involved; (2) the dual role of policy decisions as variables in a scenario or decisions to be evaluated and compared to other decisions; and (3) the substantial difference in time scale between societal and physical drivers.
+DA  - 2018/02/05/
+PY  - 2018
+DO  - https://doi.org/10.1016/j.ecss.2015.10.020
+DP  - ScienceDirect
+VL  - 201
+SP  - 164
+EP  - 171
+J2  - Estuarine, Coastal and Shelf Science
+SN  - 0272-7714
+UR  - http://www.sciencedirect.com/science/article/pii/S0272771415301104
+Y2  - 2018/02/12/16:13:48
+L2  - https://www.sciencedirect.com/science/article/pii/S0272771415301104
+KW  - Ecosystem management
+KW  - Scenarios
+KW  - Climatic changes
+KW  - International policy
+KW  - Socioeconomic aspects
+ER  - 
+
+TY  - JOUR
+TI  - Projections of change in key ecosystem indicators for planning and management of marine protected areas: An example study for European seas
+AU  - Kay, Susan
+AU  - Butenschön, Momme
+T2  - Estuarine, Coastal and Shelf Science
+T3  - Vectors of change in the marine environment
+AB  - Marine Protected Areas (MPAs) are widely used as tools to maintain biodiversity, protect habitats and ensure that development is sustainable. If MPAs are to maintain their role into the future it is important for managers to understand how conditions at these sites may change as a result of climate change and other drivers, and this understanding needs to extend beyond temperature to a range of key ecosystem indicators. This case study demonstrates how spatially-aggregated model results for multiple variables can provide useful projections for MPA planners and managers. Conditions in European MPAs have been projected for the 2040s using unmitigated and globally managed scenarios of climate change and river management, and hence high and low emissions of greenhouse gases and riverborne nutrients. The results highlight the vulnerability of potential refuge sites in the north-west Mediterranean and the need for careful monitoring at MPAs to the north and west of the British Isles, which may be affected by changes in Atlantic circulation patterns. The projections also support the need for more MPAs in the eastern Mediterranean and Adriatic Sea, and can inform the selection of sites.
+DA  - 2018/02/05/
+PY  - 2018
+DO  - https://doi.org/10.1016/j.ecss.2016.03.003
+DP  - ScienceDirect
+VL  - 201
+SP  - 172
+EP  - 184
+J2  - Estuarine, Coastal and Shelf Science
+SN  - 0272-7714
+ST  - Projections of change in key ecosystem indicators for planning and management of marine protected areas
+UR  - http://www.sciencedirect.com/science/article/pii/S027277141630066X
+Y2  - 2018/02/12/16:16:15
+L2  - https://www.sciencedirect.com/science/article/pii/S027277141630066X
+KW  - Climate changes
+KW  - Biodiversity
+KW  - Eutrophication
+KW  - Mediterranean
+KW  - Marine parks
+KW  - North-East Atlantic
+KW  - Nutrients (mineral)
+ER  - 
+
+TY  - JOUR
+TI  - Projecting changes in the distribution and productivity of living marine resources: A critical review of the suite of modelling approaches used in the large European project VECTORS
+AU  - Peck, Myron A.
+AU  - Arvanitidis, Christos
+AU  - Butenschön, Momme
+AU  - Canu, Donata Melaku
+AU  - Chatzinikolaou, Eva
+AU  - Cucco, Andrea
+AU  - Domenici, Paolo
+AU  - Fernandes, Jose A.
+AU  - Gasche, Loic
+AU  - Huebert, Klaus B.
+AU  - Hufnagl, Marc
+AU  - Jones, Miranda C.
+AU  - Kempf, Alexander
+AU  - Keyl, Friedemann
+AU  - Maar, Marie
+AU  - Mahévas, Stéphanie
+AU  - Marchal, Paul
+AU  - Nicolas, Delphine
+AU  - Pinnegar, John K.
+AU  - Rivot, Etienne
+AU  - Rochette, Sébastien
+AU  - Sell, Anne F.
+AU  - Sinerchia, Matteo
+AU  - Solidoro, Cosimo
+AU  - Somerfield, Paul J.
+AU  - Teal, Lorna R.
+AU  - Travers-Trolet, Morgan
+AU  - van de Wolfshaar, Karen E.
+T2  - Estuarine, Coastal and Shelf Science
+T3  - Vectors of change in the marine environment
+AB  - We review and compare four broad categories of spatially-explicit modelling approaches currently used to understand and project changes in the distribution and productivity of living marine resources including: 1) statistical species distribution models, 2) physiology-based, biophysical models of single life stages or the whole life cycle of species, 3) food web models, and 4) end-to-end models. Single pressures are rare and, in the future, models must be able to examine multiple factors affecting living marine resources such as interactions between: i) climate-driven changes in temperature regimes and acidification, ii) reductions in water quality due to eutrophication, iii) the introduction of alien invasive species, and/or iv) (over-)exploitation by fisheries. Statistical (correlative) approaches can be used to detect historical patterns which may not be relevant in the future. Advancing predictive capacity of changes in distribution and productivity of living marine resources requires explicit modelling of biological and physical mechanisms. New formulations are needed which (depending on the question) will need to strive for more realism in ecophysiology and behaviour of individuals, life history strategies of species, as well as trophodynamic interactions occurring at different spatial scales. Coupling existing models (e.g. physical, biological, economic) is one avenue that has proven successful. However, fundamental advancements are needed to address key issues such as the adaptive capacity of species/groups and ecosystems. The continued development of end-to-end models (e.g., physics to fish to human sectors) will be critical if we hope to assess how multiple pressures may interact to cause changes in living marine resources including the ecological and economic costs and trade-offs of different spatial management strategies. Given the strengths and weaknesses of the various types of models reviewed here, confidence in projections of changes in the distribution and productivity of living marine resources will be increased by assessing model structural uncertainty through biological ensemble modelling.
+DA  - 2018/02/05/
+PY  - 2018
+DO  - https://doi.org/10.1016/j.ecss.2016.05.019
+DP  - ScienceDirect
+VL  - 201
+SP  - 40
+EP  - 55
+J2  - Estuarine, Coastal and Shelf Science
+SN  - 0272-7714
+ST  - Projecting changes in the distribution and productivity of living marine resources
+UR  - http://www.sciencedirect.com/science/article/pii/S0272771416301639
+Y2  - 2018/02/14/11:00:29
+L2  - https://www.sciencedirect.com/science/article/pii/S0272771416301639?via%3Dihub
+KW  - Modelling
+KW  - Distribution
+KW  - Man-induced effects
+KW  - Habitat
+KW  - Resources
+ER  - 
+
+TY  - JOUR
+TI  - Responses of summer phytoplankton biomass to changes in top-down forcing: Insights from comparative modelling
+AU  - Maar, Marie
+AU  - Butenschön, Momme
+AU  - Daewel, Ute
+AU  - Eggert, Anja
+AU  - Fan, Wei
+AU  - Hjøllo, Solfrid S.
+AU  - Hufnagl, Marc
+AU  - Huret, Martin
+AU  - Ji, Rubao
+AU  - Lacroix, Geneviève
+AU  - Peck, Myron A.
+AU  - Radtke, Hagen
+AU  - Sailley, Sévrine
+AU  - Sinerchia, Matteo
+AU  - Skogen, Morten D.
+AU  - Travers-Trolet, Morgane
+AU  - Troost, Tineke A.
+AU  - van de Wolfshaar, Karen
+T2  - Ecological Modelling
+AB  - The present study describes the responses of summer phytoplankton biomass to changes in top-down forcing (expressed as zooplankton mortality) in three ecosystems (the North Sea, the Baltic Sea and the Nordic Seas) across different 3D ecosystem models. In each of the model set-ups, we applied the same changes in the magnitude of mortality (±20%) of the highest trophic zooplankton level (Z1). Model results showed overall dampened responses of phytoplankton relative to Z1 biomass. Phytoplankton responses varied depending on the food web structure and trophic coupling represented in the models. Hence, a priori model assumptions were found to influence cascades and pathways in model estimates and, thus, become highly relevant when examining ecosystem pressures such as fishing and climate change. Especially, the different roles and parameterizations of additional zooplankton groups grazed by Z1, and their importance for the outcome, emphasized the need for better calibration data. Spatial variability was high within each model indicating that physics (hydrodynamics and temperature) and nutrient dynamics also play vital roles for ecosystem responses to top-down effects. In conclusion, the model comparison indicated that changes in top-down forcing in combination with the modelled food-web structure affect summer phytoplankton biomass and, thereby, indirectly influence water quality of the systems.
+DA  - 2018/05/24/
+PY  - 2018
+DO  - https://doi.org/10.1016/j.ecolmodel.2018.03.003
+DP  - ScienceDirect
+VL  - 376
+SP  - 54
+EP  - 67
+J2  - Ecological Modelling
+SN  - 0304-3800
+ST  - Responses of summer phytoplankton biomass to changes in top-down forcing
+UR  - https://www.sciencedirect.com/science/article/pii/S0304380018300851
+Y2  - 2018/03/23/13:53:13
+L2  - https://www.sciencedirect.com/science/article/pii/S0304380018300851
+KW  - Phytoplankton
+KW  - Ensemble modelling
+KW  - Plankton functional types
+KW  - Trophic cascades
+KW  - Zooplankton mortality
+ER  - 
+
+TY  - JOUR
+TI  - Controls on near-bed oxygen concentration on the Northwest European Continental Shelf under a potential future climate scenario
+AU  - Wakelin, Sarah L.
+AU  - Artioli, Yuri
+AU  - Holt, Jason T.
+AU  - Butenschön, Momme
+AU  - Blackford, Jeremy
+T2  - Progress in Oceanography
+AB  - Dissolved oxygen concentrations in the ocean are declining on a global scale. However, the impact of climate change on oxygen in shelf seas is not well understood. We investigate potential future changes in oxygen on the northwest European continental shelf under a business as usual greenhouse gas emissions scenario (Representative Concentration Pathway RCP8.5). Regions of the European shelf are thermally stratified from spring to autumn, which can cause oxygen depletion in sub-pycnocline waters. A transient climate-forced model simulation is used to study how the temperature, salinity and concentration of near bed dissolved oxygen change over the 21st century. In warming and freshening water, the oxygen concentration declines in all shelf regions. The climate change signal emerges first in salinity, then in temperature and finally in near bed oxygen. Regions that currently experience oxygen depletion (the eastern North Sea, Celtic Sea and Armorican shelf) become larger in the future scenario and oxygen depletion lasts longer. Solubility changes, caused by changes in temperature and salinity, are the dominant cause of reducing near bed oxygen concentrations in many regions. Until about 2040 the impact of solubility dominates over the effects of the evolving ecosystem. However, in the eastern North Sea by 2100, the effect of ecosystem change is generally larger than that of solubility. In the Armorican Shelf and Celtic Sea the ecosystem changes partially mitigate the oxygen decline caused by solubility changes. Over the 21st century the mean near bed oxygen concentration on the European shelf is projected to decrease by 6.3%, of which 73% is due to solubility changes and the remainder to changes in the ecosystem. For monthly minimum oxygen the decline is 7.7% with the solubility component being 50% of the total.
+DA  - 2020/07/10/
+PY  - 2020
+DO  - https://doi.org/10.1016/j.pocean.2020.102400
+DP  - ScienceDirect
+SP  - 102400
+J2  - Progress in Oceanography
+LA  - en
+SN  - 0079-6611
+UR  - http://www.sciencedirect.com/science/article/pii/S0079661120301397
+Y2  - 2020/07/21/09:09:35
+L2  - https://www.sciencedirect.com/science/article/abs/pii/S0079661120301397
+KW  - Northeast Atlantic Ocean
+KW  - climatic change
+KW  - Dissolved oxygen
+KW  - ecosystem processes
+KW  - European Continental Shelf
+KW  - oxygen depletion
+ER  - 
+
+TY  - JOUR
+TI  - Can we project changes in fish abundance and distribution in response to climate?
+AU  - Fernandes, Jose A.
+AU  - Rutterford, Louise
+AU  - Simpson, Stephen D.
+AU  - Butenschön, Momme
+AU  - Frölicher, Thomas L.
+AU  - Yool, Andrew
+AU  - Cheung, William W. L.
+AU  - Grant, Alastair
+T2  - Global Change Biology
+AB  - Large-scale and long-term changes in fish abundance and distribution in response to climate change have been simulated using both statistical and process-based models. However, national and regional fisheries management requires also shorter term projections on smaller spatial scales, and these need to be validated against fisheries data. A 26-year time series of fish surveys with high spatial resolution in the North-East Atlantic provides a unique opportunity to assess the ability of models to correctly simulate the changes in fish distribution and abundance that occurred in response to climate variability and change. We use a dynamic bioclimate envelope model forced by physical–biogeochemical output from eight ocean models to simulate changes in fish abundance and distribution at scales down to a spatial resolution of 0.5°. When comparing with these simulations with annual fish survey data, we found the largest differences at the 0.5° scale. Differences between fishery model runs driven by different biogeochemical models decrease dramatically when results are aggregated to larger scales (e.g. the whole North Sea), to total catches rather than individual species or when the ensemble mean instead of individual simulations are used. Recent improvements in the fidelity of biogeochemical models translate into lower error rates in the fisheries simulations. However, predictions based on different biogeochemical models are often more similar to each other than they are to the survey data, except for some pelagic species. We conclude that model results can be used to guide fisheries management at larger spatial scales, but more caution is needed at smaller scales.
+DA  - 2020///
+PY  - 2020
+DO  - https://doi.org/10.1111/gcb.15081
+DP  - Wiley Online Library
+VL  - 26
+IS  - 7
+SP  - 3891
+EP  - 3905
+LA  - en
+SN  - 1365-2486
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15081
+Y2  - 2020/05/07/12:50:34
+L2  - https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15081
+KW  - climate change
+KW  - modelling
+KW  - model validation
+KW  - biological feedback
+KW  - size spectrum
+KW  - species interactions
+KW  - error estimation
+KW  - marine fisheries
+ER  - 
+
+TY  - JOUR
+TI  - Persistent Uncertainties in Ocean Net Primary Production Climate Change Projections at Regional Scales Raise Challenges for Assessing Impacts on Ecosystem Services
+AU  - Tagliabue, Alessandro
+AU  - Kwiatkowski, Lester
+AU  - Bopp, Laurent
+AU  - Butenschön, Momme
+AU  - Cheung, William
+AU  - Lengaigne, Matthieu
+AU  - Vialard, Jerome
+T2  - Frontiers in Climate
+AB  - Ocean net primary production (NPP) results from CO2 fixation by marine phytoplankton, catalysing the transfer of organic matter and energy to marine ecosystems, supporting most marine food webs, and fisheries production as well as stimulating ocean carbon sequestration. Thus, alterations to ocean NPP in response to climate change, as quantified by Earth system model experiments conducted as part of the 5th and 6th Coupled Model Intercomparison Project (CMIP5 and CMIP6) efforts, are expected to alter key ecosystem services. Despite reductions in inter-model variability since CMIP5, the ocean components of CMIP6 models disagree roughly 2-fold in the magnitude and spatial distribution of NPP in the contemporary era, due to incomplete understanding and insufficient observational constraints. Projections of NPP change in absolute terms show large uncertainty in CMIP6, most notably in the North Atlantic and the Indo-Pacific regions, with the latter explaining over two-thirds of the total inter-model uncertainty. While the Indo-Pacific has previously been identified as a hotspot for climate impacts on biodiversity and fisheries, the increased inter-model variability of NPP projections further exacerbates the uncertainties of climate risks on ocean-dependent human communities. Drivers of uncertainty in NPP changes at regional scales integrate different physical and biogeochemical factors that require more targeted mechanistic assessment in future studies. Globally, inter-model uncertainty in the projected changes in NPP has increased since CMIP5, which amplifies the challenges associated with the management of associated ecosystem services. Notably, this increased regional uncertainty in the projected NPP change in CMIP6 has occurred despite reduced uncertainty in the regional rates of NPP for historical period. Improved constraints on the magnitude of ocean NPP and the mechanistic drivers of its spatial variability would improve confidence in future changes. It is unlikely that the CMIP6 model ensemble samples the complete uncertainty in NPP, with the inclusion of additional mechanistic realism likely to widen projections further in the future, especially at regional scales. This has important consequences for assessing ecosystem impacts. Ultimately, we need an integrated mechanistic framework that considers how NPP and marine ecosystems respond to impacts of not only climate change, but also the additional non-climate drivers.
+DA  - 2021///
+PY  - 2021
+DO  - https:doi.org/10.3389/fclim.2021.738224
+DP  - Frontiers
+VL  - 3
+IS  - 738224
+SN  - 2624-9553
+UR  - https://www.frontiersin.org/article/10.3389/fclim.2021.738224
+Y2  - 2021/11/25/08:38:27
+ER  - 
+
+TY  - JOUR
+TI  - CMIP6 Simulations With the CMCC Earth System Model (CMCC-ESM2)
+AU  - Lovato, T.
+AU  - Peano, D.
+AU  - Butenschön, M.
+AU  - Materia, S.
+AU  - Iovino, D.
+AU  - Scoccimarro, E.
+AU  - Fogli, P. G.
+AU  - Cherchi, A.
+AU  - Bellucci, A.
+AU  - Gualdi, S.
+AU  - Masina, S.
+AU  - Navarra, A.
+T2  - Journal of Advances in Modeling Earth Systems
+AB  - This article introduces the second generation CMCC Earth System Model (CMCC-ESM2) that extends a number of marine and terrestrial biogeochemical processes with respect to its CMIP5 predecessor. In particular, land biogeochemistry was extended to a wider set of carbon pools and plant functional types, along with a prognostic representation of the nitrogen cycle. The marine ecosystem representation was reshaped toward an intermediate complexity of lower trophic level interactions, including an interactive benthic compartment and a new formulation of heterotrophic bacterial population. Details are provided on the model setup and implementation for the different experiments performed as contribution to the sixth phase of the Coupled Model Intercomparison Project. CMCC-ESM2 shows an equilibrium climate sensitivity of 3.57°C and a transient climate response of 1.97°C which are close to the CMIP5 and CMIP6 multi-model averages. The evaluation of the coupled climate-carbon response in the historical period against available observational datasets show a consistent representation of both physical and biogeochemical quantities. However, the land carbon sink is found to be weaker than the current global carbon estimates and the simulated marine primary production is slightly below the satellite-based average over recent decades. Future projections coherently show a prominent global warming over the northern hemisphere with intensified precipitations at high latitudes. The expected ranges of variability for oceanic pH and oxygen, as well as land carbon and nitrogen soil storage, compare favorably with those assessed from other CMIP6 models.
+DA  - 2022///
+PY  - 2022
+DO  - 10.1029/2021MS002814
+DP  - Wiley Online Library
+VL  - 14
+IS  - 3
+SP  - e2021MS002814
+LA  - en
+SN  - 1942-2466
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1029/2021MS002814
+Y2  - 2022/03/08/08:20:33
+L2  - https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002814
+KW  - Earth System Model
+KW  - climate changes
+KW  - CMIP6
+KW  - coupled climate-carbon cycles
+KW  - global biogeochemical cycles
+ER  - 
+
+TY  - JOUR
+TI  - The representation of alkalinity and the carbonate pump from CMIP5 to CMIP6 ESMs and implications for the ocean carbon cycle
+AU  - Planchat, Alban
+AU  - Kwiatkwoski, Lester
+AU  - Bopp, Laurent
+AU  - Torres, Olivier
+AU  - Christian, James R.
+AU  - Butenschön, Momme
+AU  - Lovato, Tomas
+AU  - Séférian, Roland
+AU  - Chamberlain, Matthew A.
+AU  - Aumont, Olivier
+AU  - Watanabe, Michio
+AU  - Yamamoto, Akitomo
+AU  - Yool, Andrew
+AU  - Ilyina, Tatiana
+AU  - Tsujino, Hiroyuki
+AU  - Krumhardt, Kristen M.
+AU  - Schwinger, Jörg
+AU  - Tjiputra, Jerry
+AU  - Dunne, John P.
+AU  - Stock, Charles
+T2  - accepted in Biogeosciences
+AB  - <p><strong class="journal-contentHeaderColor">Abstract.</strong> Ocean alkalinity is critical to the uptake of atmospheric carbon in surface waters and provides buffering capacity towards associated acidification. However, unlike dissolved inorganic carbon (DIC), alkalinity is not directly impacted by anthropogenic carbon emissions. Within the context of projections of future ocean carbon uptake and potential ecosystem impacts, especially through Coupled Model Intercomparison Projects (CMIPs), the representation of alkalinity and the main driver of its distribution in the ocean interior, the calcium carbonate cycle, have often been overlooked. Here we track the changes from CMIP5 to CMIP6 with respect to the Earth system model (ESM) representation of alkalinity and the carbonate pump which depletes the surface ocean in alkalinity through biological production of calcium carbonate, and releases it at depth through export and dissolution. We report a significant improvement in the representation of alkalinity in CMIP6 ESMs relative to those in CMIP5. This improvement can be explained in part by an increase in calcium carbonate (CaCO<sub>3</sub>) production for some ESMs, which redistributes alkalinity at the surface and strengthens its vertical gradient in the water column. We were able to constrain a PIC export estimate of 51&ndash;70 Tmol yr<sup>-1</sup> at 100 m for the ESMs to match the observed vertical gradient of alkalinity. Biases in the vertical profile of DIC have also significantly decreased, especially with the enhancement of the carbonate pump, but the representation of the saturation horizons has slightly worsened in contrast. Reviewing the representation of the CaCO<sub>3</sub> cycle across CMIP5/6, we find a substantial range of parameterizations. While all biogeochemical models currently represent pelagic calcification, they do so implicitly, and they do not represent benthic calcification. In addition, most models simulate marine calcite but not aragonite. In CMIP6 certain model groups have increased the complexity of simulated CaCO<sub>3</sub> production, sinking, dissolution and sedimentation. However, this is insufficient to explain the overall improvement in the alkalinity representation, which is therefore likely a result of improved marine biogeochemistry model tuning or ad hoc parameterizations. We find differences in the way ocean alkalinity is initialized that lead to offsets of up to 1 % in the global alkalinity inventory of certain models. These initialization biases should be addressed in future CMIPs by adopting accurate unit conversions. Although modelers aim to balance the global alkalinity budget in ESMs in order to limit drift in ocean carbon uptake under preindustrial conditions, varying assumptions in the closure of the budget have the potential to influence projections of future carbon uptake. For instance, in many models, carbonate production, dissolution and burial are independent of the seawater saturation state, and when considered, the range of sensitivities is substantial. As such, the future impact of ocean acidification on the carbonate pump, and in turn ocean carbon uptake, is potentially underestimated in current ESMs and insufficiently constrained.</p>
+DA  - 2022/11/04/
+PY  - 2022
+DO  - 10.5194/egusphere-2022-1041
+DP  - egusphere.copernicus.org
+SP  - 1
+EP  - 76
+LA  - English
+UR  - https://egusphere.copernicus.org/preprints/2022/egusphere-2022-1041/
+Y2  - 2023/03/17/09:31:00
+ER  - 
+
+TY  - JOUR
+TI  - Simulations of ocean deoxygenation in the historical era: insights from forced and coupled models
+AU  - Takano, Yohei
+AU  - Ilyina, Tatiana
+AU  - Tjiputra, Jerry
+AU  - Eddebbar, Yassir A.
+AU  - Berthet, Sarah
+AU  - Bopp, Laurent
+AU  - Buitenhuis, Erik
+AU  - Butenschön, Momme
+AU  - Christian, James R.
+AU  - Dunne, John P.
+AU  - Gröger, Matthias
+AU  - Hayashida, Hakase
+AU  - Hieronymus, Jenny
+AU  - Koenigk, Torben
+AU  - Krasting, John P.
+AU  - Long, Mathew C.
+AU  - Lovato, Tomas
+AU  - Nakano, Hideyuki
+AU  - Palmieri, Julien
+AU  - Schwinger, Jörg
+AU  - Séférian, Roland
+AU  - Suntharalingam, Parvadha
+AU  - Tatebe, Hiroaki
+AU  - Tsujino, Hiroyuki
+AU  - Urakawa, Shogo
+AU  - Watanabe, Michio
+AU  - Yool, Andrew
+T2  - Frontiers in Marine Science
+AB  - Ocean deoxygenation due to anthropogenic warming represents a major threat to marine ecosystems and fisheries. Challenges remain in simulating the modern observed changes in the dissolved oxygen (O2). Here, we present an analysis of upper ocean (0-700m) deoxygenation in recent decades from a suite of the Coupled Model Intercomparison Project phase 6 (CMIP6) ocean biogeochemical simulations. The physics and biogeochemical simulations include both ocean-only (the Ocean Model Intercomparison Project Phase 1 and 2, OMIP1 and OMIP2) and coupled Earth system (CMIP6 Historical) configurations. We examine simulated changes in the O2 inventory and ocean heat content (OHC) over the past 5 decades across models. The models simulate spatially divergent evolution of O2 trends over the past 5 decades. The trend (multi-model mean and spread) for upper ocean global O2 inventory for each of the MIP simulations over the past 5 decades is 0.03 ± 0.39×1014 [mol/decade] for OMIP1, −0.37 ± 0.15×1014 [mol/decade] for OMIP2, and −1.06 ± 0.68×1014 [mol/decade] for CMIP6 Historical, respectively. The trend in the upper ocean global O2 inventory for the latest observations based on the World Ocean Database 2018 is −0.98×1014 [mol/decade], in line with the CMIP6 Historical multi-model mean, though this recent observations-based trend estimate is weaker than previously reported trends. A comparison across ocean-only simulations from OMIP1 and OMIP2 suggests that differences in atmospheric forcing such as surface wind explain the simulated divergence across configurations in O2 inventory changes. Additionally, a comparison of coupled model simulations from the CMIP6 Historical configuration indicates that differences in background mean states due to differences in spin-up duration and equilibrium states result in substantial differences in the climate change response of O2. Finally, we discuss gaps and uncertainties in both ocean biogeochemical simulations and observations and explore possible future coordinated ocean biogeochemistry simulations to fill in gaps and unravel the mechanisms controlling the O2 changes.
+DA  - 2023///
+PY  - 2023
+DO  - https://doi.org/10.3389/fmars.2023.1139917
+DP  - Frontiers
+VL  - 10
+SN  - 2296-7745
+ST  - Simulations of ocean deoxygenation in the historical era
+UR  - https://www.frontiersin.org/articles/10.3389/fmars.2023.1139917
+Y2  - 2023/11/13/07:51:49
+ER  - 
+
