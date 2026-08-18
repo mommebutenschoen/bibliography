@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/local/bin/python
 
 from bibliograpy.bibliography import bibliography
 from bibliograpy.abstractBooklet import abstractBooklet, pandoc_html
