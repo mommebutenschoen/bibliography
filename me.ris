@@ -1837,3 +1837,75 @@ Y2  - 2026/09/25/07:00:11
 L1  - https://esd.copernicus.org/articles/17/1341/2026/esd-17-1341-2026.pdf
 ER  - 
 
+TY  - JOUR
+TI  - A Blueprint for Integrated Climate Intelligence
+AU  - Rodriguez-Pardo, Carlos
+AU  - Ascenso, Guido
+AU  - Pedraza, Cindy Giselle Azuero
+AU  - Bachelery, Marie-Lou
+AU  - Balzarolo, Manuela
+AU  - Beery, Sara
+AU  - Benson, Vitus
+AU  - Berti-Equille, Laure
+AU  - Bracco, Annalisa
+AU  - Butenschön, Momme Momme
+AU  - Camps-Valls, Gustau
+AU  - Castelletti, Andrea
+AU  - Chapman, Melissa
+AU  - Colfescu, Ioana
+AU  - Epicoco, Italo
+AU  - James, Chaneil
+AU  - Klemmer, Konstantin
+AU  - Kotsch, Raphaela
+AU  - Kumar, Vipin
+AU  - Lessig, Christian
+AU  - Mozaffari, Amirpasha
+AU  - Mukkavilli, S. Karthik
+AU  - Ouaknine, Arthur
+AU  - Paletta, Quentin
+AU  - Pérez-Ortiz, Maria
+AU  - Rolf, Esther
+AU  - Sanford, Mary
+AU  - Shayegh, Soheil
+AU  - Tokarksa, Kasia
+AU  - Tavoni, Massimo
+AB  - Climate information is advancing faster than the decision systems designed to use it. Emergency response operates on timescales of hours, whereas societal adaptation unfolds over decades. Yet climate science, impact assessment and policy remain poorly integrated, limiting coherent action across timescales. We argue that artificial intelligence should be developed not only as a domain-specific tool, but as an integration layer linking fragmented physical, social and institutional systems. This Perspective outlines a blueprint for Integrated Climate Intelligence built on three pillars: fairness, which prioritizes vulnerability alongside data availability; speed, which reduces the latency between assessment and action; and robustness, which quantifies uncertainty under extrapolation and high-stakes decision-making. We further propose a Climate AI Trust Index as an evaluation framework for assessing whether climate AI systems are sufficiently rigorous, equitable and decision-relevant for operational use.
+DA  - 2026/05/13/
+PY  - 2026
+DP  - eartharxiv.org
+LA  - en
+PB  - EarthArXiv
+UR  - https://eartharxiv.org/repository/view/13019/
+Y2  - 2026/10/21/09:10:01
+L1  - https://eartharxiv.org/repository/object/13019/download/23077/
+ER  - 
+
+TY  - JOUR
+TI  - ShyBFM v1.0: unstructured grid advection-diffusion-reaction modelling for coastal biogeochemical processes
+AU  - Alessandri, Jacopo
+AU  - Bonino, Giulia
+AU  - Lovato, Tomas
+AU  - Butenschön, Momme
+AU  - Mentaschi, Lorenzo
+AU  - Verri, Giorgia
+AU  - Federico, Ivan
+AU  - Pinardi, Nadia
+T2  - Geoscientific Model Development
+AB  - This study presents ShyBFM, a high-resolution coupled physical–biogeochemical modelling system based on an unstructured grid. The physical component is the parallel computing finite element, ocean circulation model SHYFEM-MPI, while the marine ecosystem is described through the Biogeochemical Flux Model (BFM) which resolves the coupled pelagic and benthic lower trophic level interactions. The unstructured grid framework enables an accurate representation of complex coastal geometries while maintaining the influence of larger-scale dynamics through open boundary conditions. The numerical implementation of the model coupling is described, including the treatment of lateral and surface boundary conditions, and its application is illustrated through a reference case study. Model validation is performed for a coastal region of the northern Adriatic Sea (Mediterranean Sea), nested within an existing large-scale coupled physical–biogeochemical model that provides initial and lateral boundary conditions and serves as a calibration and validation benchmark. Simulated biogeochemical tracers from both the large-scale model and ShyBFM are compared against observational climatology. Results indicate that ShyBFM successfully reproduces the seasonal variability of key biogeochemical variables, exhibiting enhanced temporal variability and improved skill scores relative to the coarser-resolution model, although some limitations remain to be addressed. ShyBFM constitutes a robust and flexible tool for investigating interactions between physical dynamics and biogeochemical processes in coastal environments, which are strongly constrained by geomorphology, bathymetry, and riverine inputs. As such, ShyBFM is particularly well suited for applications supporting coastal management and environmental assessment.
+DA  - 2026/10/02/
+PY  - 2026
+DO  - 10.5194/gmd-19-9301-2026
+DP  - Copernicus Online Journals
+VL  - 19
+IS  - 19
+SP  - 9301
+EP  - 9324
+LA  - English
+PB  - Copernicus GmbH
+SN  - 1991-959X
+ST  - ShyBFM v1.0
+UR  - https://gmd.copernicus.org/articles/19/9301/2026/
+Y2  - 2026/11/04/09:25:22
+L1  - https://gmd.copernicus.org/articles/19/9301/2026/gmd-19-9301-2026.pdf
+ER  - 
+
