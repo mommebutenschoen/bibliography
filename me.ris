@@ -1792,10 +1792,48 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1029/2025JC023848
 Y2  - 2026/08/17/08:30:28
 L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2025JC023848
 L2  - https://onlinelibrary.wiley.com/doi/abs/10.1029/2025JC023848
-KW  - Benguela upwelling system
 KW  - climate warming
 KW  - ocean deoxygenation
+KW  - Benguela upwelling system
 KW  - oxygen minimum zones
 KW  - physical–biogeochemical modeling
+ER  - 
+
+TY  - JOUR
+TI  - Assessing Earth system responses in mitigation scenarios with activity-driven simulation of carbon dioxide removal
+AU  - Schwinger, Jörg
+AU  - Merfort, Leon
+AU  - Bauer, Nico
+AU  - Bernardello, Raffaele
+AU  - Butenschön, Momme
+AU  - Bourgeois, Timothée
+AU  - Gidden, Matthew J.
+AU  - Gupta, Shraddha
+AU  - Lee, Hanna
+AU  - Mengis, Nadine
+AU  - Moustakis, Yiannis
+AU  - Muri, Helene
+AU  - Nieradzik, Lars
+AU  - Peano, Daniele
+AU  - Pongratz, Julia
+AU  - Sauer, Pascal
+AU  - Tourigny, Etienne
+AU  - Wårlind, David
+T2  - Earth System Dynamics
+AB  - Assessing Earth system responses arising from carbon dioxide removal (CDR) requires developing and simulating pairs of scenarios – a mitigation scenario with deployment of CDR and a corresponding no-CDR baseline. The latter describes a world where no CDR is deployed, such that net carbon emissions are higher and a given temperature target may be missed. While over the past years a rich literature on mitigation scenarios with CDR has been emerging, no-CDR baselines have mostly been explored in stylized Earth system model (ESM) experiments. In such simulations, a no-CDR baseline simply assumes that CDR is “switched off”, while socio-economic constraints are not considered. However, the deployment of CDR in mitigation scenarios, created by integrated assessment models (IAMs), is embedded in a consistent socio-economic description of plausible futures, and disallowing CDR may affect climate drivers due to changes in the energy system and in land-use dynamics. Particularly, when moving towards an activity-driven representation of CDR in emission-driven ESMs, where the activity that draws down CO2 from the atmosphere is explicitly modelled, the creation of no-CDR baselines comes with challenges and trade-offs. Here, we conceptualize a framework for emission-driven ESM simulations of IAM scenarios that allows us to determine carbon-cycle feedbacks and biogeophysical effects of CDR deployment using no-CDR baselines. We show that different options exist for the creation of no-CDR baselines, which offer different insights and have their specific advantages and limitations. We also demonstrate that internal variability of the climate system inherently limits our ability to detect the small signals related to CDR deployment and its feedbacks. Hence, unless a sufficiently large initial conditions ensemble is employed, stylized modelling approaches may remain preferable for some applications, e.g., the quantification of regional biogeophysical effects of CDR deployment. Both, the efficiency of CDR (defined as CO2 removed per unit of resources employed) as well as related carbon-cycle feedbacks and biogeophysical effects are expected to be scenario- and model-dependent. Our simulation design of concentration- and emission-driven no-CDR baselines, together with an improved representation of CDR in the IAM – ESM modelling chain, opens an avenue towards estimating CDR efficiencies and their uncertainties under various future scenarios in upcoming model intercomparison activities.
+DA  - 2026/09/25/
+PY  - 2026
+DO  - 10.5194/esd-17-1341-2026
+DP  - Copernicus Online Journals
+VL  - 17
+IS  - 5
+SP  - 1341
+EP  - 1363
+LA  - English
+PB  - Copernicus GmbH
+SN  - 2190-4979
+UR  - https://esd.copernicus.org/articles/17/1341/2026/
+Y2  - 2026/09/25/07:00:11
+L1  - https://esd.copernicus.org/articles/17/1341/2026/esd-17-1341-2026.pdf
 ER  - 
 
