@@ -43,7 +43,7 @@
 */
 
 html * {
-  font-family: "Merriweather", "Merriweather Sans", "TakaoPGothic", "Helvetica Neue", Helvetica, "DejaVuSans", "Liberation Sans", Calibri, Arial, sans-serif; /* Sans-serif headers */
+  font-family: "Merriweather Sans", "TakaoPGothic", "Helvetica Neue", Helvetica, "DejaVuSans", "Liberation Sans", Calibri, Arial, sans-serif; /* Sans-serif headers */
   font-size: large;
   font-weight: lighter;
 
@@ -64,8 +64,6 @@ div#header, header
     {
     text-align: center;
     font-size: xx-large;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
     }
 
 .author, .date /* Pandoc author(s) and date headers (h2.author and h3.date) */
@@ -77,6 +75,7 @@ div#header, header
    following the order of appearance in rst document. */
 h1, h1 strong {
   font-size: x-large;
+  font-weight: 400;
   margin-top: 3em;
 }
 
@@ -93,7 +92,11 @@ h1 * {
 }
 
 h1 {
+  text-align: center;
+  font-size: xx-large;
   font-weight: 300;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 h2 {
@@ -102,8 +105,20 @@ h2 {
 }
 
 h3, h3 em {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+h4, h4 em , h4 strong {
   font-size: large;
-  font-weight: normal;
+  font-weight: 400;
+  margin-top: 3em;
+}
+
+h5, h5 em {
+  font-style: italic;
+  font-size: normal;
+  font-weight: 300;
 }
 
 /* Pandoc table of contents DIV when using the --toc option.
@@ -215,7 +230,7 @@ em > em /* Emphasis within emphasis: *This is all *emphasized* except that* */
 
 strong /* Markdown **strong** or __strong__ */
     {
-    font-weight: 300;
+    font-weight: 400;
     }
 
 /* ---- Links (anchors) ---- */
