@@ -111,8 +111,13 @@ h3, h3 em {
 
 h4, h4 em , h4 strong {
   font-size: large;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 3em;
+}
+
+h4 strong {
+  font-size: large;
+  font-weight: 400;
 }
 
 h5, h5 em {
