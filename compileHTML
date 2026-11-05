@@ -5,7 +5,7 @@ from bibliograpy.abstractBooklet import abstractBooklet, pandoc_html
 bib = bibliography("me.ris")
 bib.sort()
 book = abstractBooklet(bib, "Momme Butenschön - Publications")
-book("index.rst", boldAuthor=r"\bM(?:omme|\.) Butensch(?:o|oe|ö)n\b")
+book("index.md", boldAuthor=r"\bM(?:omme|\.) Butensch(?:o|oe|ö)n\b")
 pandoc_html("index")
 with open("index.html","r") as fid:
     lines=fid.read()
